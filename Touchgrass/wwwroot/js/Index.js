@@ -1,123 +1,146 @@
-//create tags
-var created = false;
-var tagBlock = document.getElementById("tag");
-tagBlock.style.display = "flex";
-tagBlock.style.flexDirection = "row";
-tagBlock.style.gap = "10px";
-tagBlock.style.marginTop = "15px";
-tagBlock.style.marginLeft = "10px";
-//create tags depends on how many tags u have in the activity
-var tagAmount = 3 //6 is just a dummy no.
+//change tags depends on how many tags u have in the activity
+let tagAmount = 6 //this is just a dummy no.
+let memberAmount = 3 //this is just a dummy no.
 
-function inittaglessthan767() {
-    if (tagAmount >2) {
-        for (let i = 0; i < 2; i++) {
-            let tagItem = document.createElement("div");
-            let itemLore = document.createElement("p");
-            let itemLoreText = document.createTextNode("%itemLore")
-            itemLore.appendChild(itemLoreText);
-            tagItem.appendChild(itemLore);
-            tagBlock.appendChild(tagItem);
-            itemLore.style.marginBottom = "0px";
-            tagItem.style.display = "flex";
-            tagItem.style.justifyContent = "center";
-            tagItem.style.alignItems = "center";
-            tagItem.style.width = "150px";
-            tagItem.style.height = "30px";
-            tagItem.style.borderStyle = "solid";
-            tagItem.style.borderRadius = "15px";
-            }
-            //create 2 tag-item;
-        let tagPlus = document.createElement("div");
-        let plusAmount = document.createElement("p");
-        let plusAmountValue = tagAmount - 2; 
-        let plusAmountText = document.createTextNode("+" + plusAmountValue);
-        plusAmount.appendChild(plusAmountText);
-        tagPlus.appendChild(plusAmount);
-        tagBlock.appendChild(tagPlus);
-        plusAmount.style.marginBottom = "0px";
-        tagPlus.style.display = "flex";
-        tagPlus.style.justifyContent = "center";
-        tagPlus.style.alignItems = "center";
-        tagPlus.style.width = "45px";
-        tagPlus.style.height = "30px";
-        tagPlus.style.borderStyle = "solid";
-        tagPlus.style.borderRadius = "15px";
-        //create tag-plus;
-    }
-    else {   
-        for (let i = 0; i < tagAmount; i++) {
-            let tagItem = document.createElement("div");
-            let itemLore = document.createElement("p");
-            let itemLoreText = document.createTextNode("%itemLore")
-            itemLore.appendChild(itemLoreText);
-            tagItem.appendChild(itemLore);
-            tagBlock.appendChild(tagItem);
-            itemLore.style.marginBottom = "0px";
-            tagItem.style.display = "flex";
-            tagItem.style.justifyContent = "center";
-            tagItem.style.alignItems = "center";
-            tagItem.style.width = "150px";
-            tagItem.style.height = "30px";
-            tagItem.style.borderStyle = "solid";
-            tagItem.style.borderRadius = "15px";
-            }
-            //create 2 tag-item;
+const tag1 = document.getElementById("tag-item-1");
+const tag2 = document.getElementById("tag-item-2");
+const tag3 = document.getElementById("tag-item-3");
+const tagplus = document.getElementById("tag-plus");
+
+const i1 = document.getElementById("member-img-1");
+const i2 = document.getElementById("member-img-2");
+const i3 = document.getElementById("member-img-3");
+const i4 = document.getElementById("member-img-4");
+const i5 = document.getElementById("member-img-5");
+const memplus = document.getElementById("member-plus");
+const overlayTextMember = document.getElementById("member-overlay");
+
+//member sections
+let memberPlusAmountValue = memberAmount - 5;
+
+switch (memberAmount) {
+    case 1:
+        i1.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i2.style.display = "None";
+        i3.style.display = "None";
+        i4.style.display = "None";
+        i5.style.display = "None";
+        memplus.style.display = "None";
+    case 2:
+        i1.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i2.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i3.style.display = "None";
+        i4.style.display = "None";
+        i5.style.display = "None";
+        memplus.style.display = "None";
+    case 3:
+        i1.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i2.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i3.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i4.style.display = "None";
+        i5.style.display = "None";
+        memplus.style.display = "None";
+    case 4:
+        i1.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i2.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i3.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i4.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i5.style.display = "None";
+        memplus.style.display = "None";
+    case 5:
+        i1.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i2.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i3.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i4.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i5.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        memplus.style.display = "None";
+    default :
+        i1.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i2.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i3.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i4.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        i5.src = "https://chpic.su/_data/stickers/m/mahiro_maeda_animstorek/mahiro_maeda_animstorek_006.webp?v=1707663603";
+        overlayTextMember.innerHTML = "+" + memberPlusAmountValue;
+}
+
+//tag sections
+function myFunction(x) {
+    if (x.matches) { // If media query matches
+        initsmallscreen();
+    } 
+    else {
+        initnormalscreen();
     }
 }
-function inittagmorethan767() {
-    if (tagAmount >3) {
-        for (let i = 0; i < 3; i++) {
-            let tagItem = document.createElement("div");
-            let itemLore = document.createElement("p");
-            let itemLoreText = document.createTextNode("%itemLore")
-            itemLore.appendChild(itemLoreText);
-            tagItem.appendChild(itemLore);
-            tagBlock.appendChild(tagItem);
-            itemLore.style.marginBottom = "0px";
-            tagItem.style.display = "flex";
-            tagItem.style.justifyContent = "center";
-            tagItem.style.alignItems = "center";
-            tagItem.style.width = "150px";
-            tagItem.style.height = "30px";
-            tagItem.style.borderStyle = "solid";
-            tagItem.style.borderRadius = "15px";
-            }
-            //create 3 tag-item;
-        let tagPlus = document.createElement("div");
-        let plusAmount = document.createElement("p");
-        let plusAmountValue = tagAmount - 3; 
-        let plusAmountText = document.createTextNode("+" + plusAmountValue);
-        plusAmount.appendChild(plusAmountText);
-        tagPlus.appendChild(plusAmount);
-        tagBlock.appendChild(tagPlus);
-        plusAmount.style.marginBottom = "0px";
-        tagPlus.style.display = "flex";
-        tagPlus.style.justifyContent = "center";
-        tagPlus.style.alignItems = "center";
-        tagPlus.style.width = "45px";
-        tagPlus.style.height = "30px";
-        tagPlus.style.borderStyle = "solid";
-        tagPlus.style.borderRadius = "15px";
-        //create tag-plus;
+  
+// Create a MediaQueryList object
+var x = window.matchMedia("(max-width: 767px)")
+
+// Call listener function at run time
+myFunction(x);
+
+// Attach listener function on state changes
+x.addEventListener("change", function() {
+myFunction(x);
+});
+
+function initnormalscreen() {
+    let plusAmountValue = tagAmount - 3;
+
+    switch (tagAmount) {
+        case 1:
+            tag1.innerHTML = "tagLore1";
+            tag2.style.display = "None";
+            tag3.style.display = "None";
+            tagplus.style.display = "None";
+        case 2:
+            tag1.innerHTML = "tagLore1";
+            tag2.innerHTML = "tagLore2";
+            tag3.style.display = "None";
+            tagplus.style.display = "None";
+        case 3:
+            tag1.innerHTML = "tagLore1";
+            tag2.innerHTML = "tagLore2";
+            tag3.style.display = "flex";
+            tag3.innerHTML = "tagLore3";
+            tagplus.style.display = "None";
+        default :
+            tag1.innerHTML = "tagLore1";
+            tag2.innerHTML = "tagLore2";
+            tag3.innerHTML = "tagLore3";
+            tag3.style.display = "flex";
+            tagplus.innerHTML = "+" + plusAmountValue;
     }
-    else {   
-        for (let i = 0; i < tagAmount; i++) {
-            let tagItem = document.createElement("div");
-            let itemLore = document.createElement("p");
-            let itemLoreText = document.createTextNode("%itemLore")
-            itemLore.appendChild(itemLoreText);
-            tagItem.appendChild(itemLore);
-            tagBlock.appendChild(tagItem);
-            itemLore.style.marginBottom = "0px";
-            tagItem.style.display = "flex";
-            tagItem.style.justifyContent = "center";
-            tagItem.style.alignItems = "center";
-            tagItem.style.width = "150px";
-            tagItem.style.height = "30px";
-            tagItem.style.borderStyle = "solid";
-            tagItem.style.borderRadius = "15px";
-            }
-            //create 3 tag-item;
-    }    
+}
+function initsmallscreen() {
+    let plusAmountValue = tagAmount - 2;
+
+    switch (tagAmount) {
+        case 1:
+            tag1.innerHTML = "tagLore1";
+            tag2.style.display = "None";
+            tag3.style.display = "None";
+            tagplus.style.display = "None";
+        case 2:
+            tag1.innerHTML = "tagLore1";
+            tag2.innerHTML = "tagLore2";
+            tag3.style.display = "None";
+            tagplus.style.display = "None";
+        default :
+            tag1.innerHTML = "tagLore1";
+            tag2.innerHTML = "tagLore2";
+            tag3.style.display = "None";
+            tagplus.style.display = "flex";
+            tagplus.innerHTML = "+" + plusAmountValue;
+    }
+}
+
+function joinGroup(event) {
+    window.alert('You Requested to join this group');
+    event.stopPropagation();
+}
+
+function viewActivity(event) {
+    window.alert('You clicked on ACT block');
+    event.stopPropagation();
 }

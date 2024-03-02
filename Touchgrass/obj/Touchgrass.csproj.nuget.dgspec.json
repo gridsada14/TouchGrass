@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Codinggggg\\WebappAssignment\\PROJECC WEBAPP\\TouchGrass\\Touchgrass\\Touchgrass.csproj": {}
+    "C:\\WEBDEVVVVVVVVV\\TouchGrass\\Touchgrass\\Touchgrass.csproj": {}
   },
   "projects": {
-    "C:\\Codinggggg\\WebappAssignment\\PROJECC WEBAPP\\TouchGrass\\Touchgrass\\Touchgrass.csproj": {
+    "C:\\WEBDEVVVVVVVVV\\TouchGrass\\Touchgrass\\Touchgrass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Codinggggg\\WebappAssignment\\PROJECC WEBAPP\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
+        "projectUniqueName": "C:\\WEBDEVVVVVVVVV\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
         "projectName": "Touchgrass",
-        "projectPath": "C:\\Codinggggg\\WebappAssignment\\PROJECC WEBAPP\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
-        "packagesPath": "C:\\Users\\Nitro\\.nuget\\packages\\",
-        "outputPath": "C:\\Codinggggg\\WebappAssignment\\PROJECC WEBAPP\\TouchGrass\\Touchgrass\\obj\\",
+        "projectPath": "C:\\WEBDEVVVVVVVVV\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\WEBDEVVVVVVVVV\\TouchGrass\\Touchgrass\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nitro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

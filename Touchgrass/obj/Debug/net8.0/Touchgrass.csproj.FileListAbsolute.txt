@@ -61,3 +61,35 @@ c:\Codinggggg\WebappAssignment\PROJECC WEBAPP\TouchGrass\Touchgrass\obj\Debug\ne
 c:\Codinggggg\WebappAssignment\PROJECC WEBAPP\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.genruntimeconfig.cache
 c:\Codinggggg\WebappAssignment\PROJECC WEBAPP\TouchGrass\Touchgrass\obj\Debug\net8.0\ref\Touchgrass.dll
 c:\Codinggggg\WebappAssignment\PROJECC WEBAPP\TouchGrass\Touchgrass\obj\Debug\net8.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\bin\Debug\net8.0\appsettings.Development.json
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\bin\Debug\net8.0\appsettings.json
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\bin\Debug\net8.0\Touchgrass.staticwebassets.runtime.json
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\bin\Debug\net8.0\Touchgrass.exe
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\bin\Debug\net8.0\Touchgrass.deps.json
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\bin\Debug\net8.0\Touchgrass.runtimeconfig.json
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\bin\Debug\net8.0\Touchgrass.dll
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\bin\Debug\net8.0\Touchgrass.pdb
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.GeneratedMSBuildEditorConfig.editorconfig
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.AssemblyInfoInputs.cache
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.AssemblyInfo.cs
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.csproj.CoreCompileInputs.cache
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.MvcApplicationPartsAssemblyInfo.cache
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.RazorAssemblyInfo.cache
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.RazorAssemblyInfo.cs
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.sourcelink.json
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\staticwebassets.build.json
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\staticwebassets.development.json
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\staticwebassets\msbuild.Touchgrass.Microsoft.AspNetCore.StaticWebAssets.props
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\staticwebassets\msbuild.build.Touchgrass.props
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Touchgrass.props
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Touchgrass.props
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\staticwebassets.pack.json
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\scopedcss\bundle\Touchgrass.styles.css
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\scopedcss\projectbundle\Touchgrass.bundle.scp.css
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.dll
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\refint\Touchgrass.dll
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.pdb
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.genruntimeconfig.cache
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\ref\Touchgrass.dll
