@@ -1,8 +1,7 @@
-/* _content/Touchgrass/Views/Home/Index.cshtml.rz.scp.css */
-p[b-dezz4v976g],h1[b-dezz4v976g],h2[b-dezz4v976g],h3[b-dezz4v976g],h4[b-dezz4v976g],h5[b-dezz4v976g],h6[b-dezz4v976g] {
+p,h1,h2,h3,h4,h5,h6 {
     margin-bottom: 0px !important;
 }
-.allcontent[b-dezz4v976g] {
+.allcontent {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +9,7 @@ p[b-dezz4v976g],h1[b-dezz4v976g],h2[b-dezz4v976g],h3[b-dezz4v976g],h4[b-dezz4v97
     gap: 30px;
     color: #fcfffc;
 }
-.act-block[b-dezz4v976g] {
+.act-block {
     width: 1200px;
     height: 430px;
     border-style: solid;
@@ -22,19 +21,19 @@ p[b-dezz4v976g],h1[b-dezz4v976g],h2[b-dezz4v976g],h3[b-dezz4v976g],h4[b-dezz4v97
     gap: 10px;
     background-color: #2d3a3a;
 }
-.left-side[b-dezz4v976g] {
+.left-side {
     width: 580px;
     height: 410px;
     display: flex;
     flex-direction: column;
 }
-.right-side[b-dezz4v976g] {
+.right-side {
     width: 580px;
     height: 410px;
     display: flex;
     flex-direction: column;
 }
-.img-display[b-dezz4v976g] {
+.img-display {
     width: 550px;
     height: 277px;
     border-style: solid;
@@ -43,13 +42,13 @@ p[b-dezz4v976g],h1[b-dezz4v976g],h2[b-dezz4v976g],h3[b-dezz4v976g],h4[b-dezz4v97
     margin-left: 10px;
     object-fit: cover;
 }
-.act-title[b-dezz4v976g] {
+.act-title {
     margin-top: 10px;
     margin-left: 15px;
     margin-right: 15px;
     font-size: 32px;
 }
-.member-block[b-dezz4v976g] {
+.member-block {
     width: 550px;
     height: 100px;
     margin-top: 10px;
@@ -61,29 +60,29 @@ p[b-dezz4v976g],h1[b-dezz4v976g],h2[b-dezz4v976g],h3[b-dezz4v976g],h4[b-dezz4v97
     flex-direction: row;
     gap: 10px;
 }
-.member-img[b-dezz4v976g] {
+.member-img {
     width: 80px;
     height: 80px;
     border-style: solid;
     border-radius: 50px;
 }
-.member-plus[b-dezz4v976g] {
+.member-plus {
     width: 80px;
     height: 80px;
     border-style: solid;
     border-radius: 50px;
     text-align: center;
 }
-.overlay-member-text[b-dezz4v976g] {
+.overlay-member-text {
     margin-top: 19px;
 }
-.description[b-dezz4v976g] {
+.description {
     width: 550px;
     height: 240px;
     margin-left: 15px;
     font-size: 16px;
 } 
-.button-block[b-dezz4v976g] {
+.button-block {
     width: 550px;
     height: 40px;
     border-style: solid;
@@ -96,124 +95,75 @@ p[b-dezz4v976g],h1[b-dezz4v976g],h2[b-dezz4v976g],h3[b-dezz4v976g],h4[b-dezz4v97
     font-family: 'Itim';
     color: white;
 }
-.join-button[b-dezz4v976g] {
+.join-button {
     font-size: 32px;
 }
-.button-block:hover[b-dezz4v976g] {
+.button-block:hover {
     background-color: #2ba84a;
 }
 
 @media (max-width: 1200px){
-    .act-block[b-dezz4v976g] {
+    .act-block {
         width: 700px;
         height: 900px;
         flex-direction: column;
     }
-    .description[b-dezz4v976g] {
+    .description {
         margin-top: 30px;
     }
 }
 
 @media (max-width: 767px){
-    .act-block[b-dezz4v976g] {
+    .act-block {
         width: 400px;
         height: 870px;
         flex-direction: column;
     }
-    .left-side[b-dezz4v976g] {
+    .left-side {
         width: 380px;
         height: 410px;
     }
-    .right-side[b-dezz4v976g] {
+    .right-side {
         width: 380px;
         height: 410px;
     }
-    .tag-item[b-dezz4v976g] {
+    .tag-item {
         width: 140px;
     }
-    .tag-item3[b-dezz4v976g] {
+    .tag-item3 {
         display: none;
     }
-    .img-display[b-dezz4v976g] {
+    .img-display {
         width: 350px;
         height: 277px;
     }
-    .member-block[b-dezz4v976g] {
+    .member-block {
         width: 350px;
         height: 70px;
     }
-    .member-img[b-dezz4v976g] {
+    .member-img {
         width: 50px;
         height: 50px;
         border-radius: 30px;
     }
-    .member-plus[b-dezz4v976g] {
+    .member-plus {
         width: 50px;
         height: 50px;
     }
-    .overlay-member-text[b-dezz4v976g] {
+    .overlay-member-text {
         margin-top: 12px;
         font-size: 16px;
     }
-    .description[b-dezz4v976g] {
+    .description {
         width: 350px;
         height: 300px;
         margin-left: 15px;
         font-size: 16px;
         margin-top: 15px;
     }
-    .button-block[b-dezz4v976g] {
+    .button-block {
         width: 350px;
         height: 40px;
         font-size: 32px;
     }
-}
-/* _content/Touchgrass/Views/Shared/_Layout.cshtml.rz.scp.css */
-/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand[b-pnm7v2526n] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
-}
-
-a[b-pnm7v2526n] {
-  color: #0077cc;
-}
-
-.btn-primary[b-pnm7v2526n] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active[b-pnm7v2526n], .nav-pills .show > .nav-link[b-pnm7v2526n] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.border-top[b-pnm7v2526n] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-pnm7v2526n] {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow[b-pnm7v2526n] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy[b-pnm7v2526n] {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-.footer[b-pnm7v2526n] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
 }
