@@ -1,6 +1,6 @@
 //change tags depends on how many tags u have in the activity
 let tagAmount = 6 //this is just a dummy no.
-let memberAmount = 3 //this is just a dummy no.
+let memberAmount = 55 //this is just a dummy no.
 
 const tag1 = document.getElementById("tag-item-1");
 const tag2 = document.getElementById("tag-item-2");
@@ -135,12 +135,10 @@ function initsmallscreen() {
     }
 }
 
-function joinGroup(event) {
+function joinGroup() {
     window.alert('You Requested to join this group');
-    event.stopPropagation();
 }
 
-function viewActivity(event) {
+function viewActivity() {
     window.alert('You clicked on ACT block');
-    event.stopPropagation();
 }

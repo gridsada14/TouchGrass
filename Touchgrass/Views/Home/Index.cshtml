@@ -3,12 +3,12 @@
 }
 
 <header>
-    <link rel="stylesheet" href="Index.cshtml.css">
+    <link rel="stylesheet" href="~/css/Index.css">
     <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </header>
 <div class="allcontent">
-    <div class="act-block" type="button" onclick="viewActivity()">
+    <div class="act-block" type="button" onclick="event.stopPropagation();viewActivity();">
         <div class="left-side">
             <div class="tag-display" id="tag-display">
                 <div class="tag-item" id="tag-item-1">
@@ -29,6 +29,7 @@
         </div>
         <div class="right-side">
             <div class="member-block">
+                <img class="host-crown" src="https://cdn-icons-png.flaticon.com/128/6941/6941697.png"></img>
                 <img class="member-img" id="member-img-1" src="https://wallpapers.com/images/hd/aesthetic-anime-profile-pictures-3q47hx2sxbusceim.jpg"></img>
                 <img class="member-img" id="member-img-2" src="https://wallpapers.com/images/hd/aesthetic-anime-profile-pictures-3q47hx2sxbusceim.jpg"></img>
                 <img class="member-img" id="member-img-3" src="https://wallpapers.com/images/hd/aesthetic-anime-profile-pictures-3q47hx2sxbusceim.jpg"></img>
@@ -39,16 +40,16 @@
                 </div>
             </div>
             <div class="description">
-                <p>Party size : %NUM%</p>
-                <p>Date : %DATE%</p>
-                <p>Place : %AAA%</p>
-                <p>Description : This message contains 300 charLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla con</p>
+                <p class="size">Party size : %NUM%</p>
+                <p class="date">Date : %DATE%</p>
+                <p class="place">Place : %AAA%</p>
+                <p class="desc">Description : This message contains 300 charLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla con</p>
                 
             </div>
-            <button class="button-block" type="button" onclick="joinGroup()">
+            <button class="button-block" type="button" onclick="event.stopPropagation(); joinGroup();">
                 <h1 class="join-button">JOIN</h1>
             </button>
         </div>
-    </div> 
+    </div>
 </div>
 <script src="~/js/index.js"></script>
