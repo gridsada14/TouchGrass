@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Layout</title>
+<style>
+    .act-container {
+    width:70%;
+    max-width: 700px;
+    height: auto;
+    margin: 15px auto;
+    /* background-color: sandybrown; */
+}
+.left-image {
+    margin-bottom: 4px;
+}
+
+.big {
+    display: block;         /* fix line under image*/
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+} 
+</style>
+</head>
+<body>
+<div class="act-container">
+<div class="container">
+  <div class="left-image">
+    <img src="./img/waterfall.png" alt="Big Image" class="big">
+  </div>
+  <div class="right-images">
+    <img src="./img/jungle.jpg" alt="Small Image 1" class="small">
+    <img src="./img/lake.jpg" alt="Small Image 2" class="small">
+    <img src="./img/mountain.jpg" alt="Small Image 3" class="small">
+  </div>
+</div>
+</div>
+
+</body>
+</html>

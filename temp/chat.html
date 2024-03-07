@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Shadow with Dynamic Color</title>
+<style>
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 20px var(--shadow-color);
+  }
+
+  img {
+    display: block;
+    margin: 0; /* Remove default margin */
+  }
+</style>
+</head>
+<body>
+<div class="image-container">
+  <img src="./img/jungle.jpg" alt="Your Image" id="main-image" style="width: 400px;">
+  <div class="image-shadow"></div>
+</div>
+
+<script>
+  window.addEventListener('load', function() {
+    var image = document.getElementById('main-image');
+    var canvas = document.createElement('canvas');
+    var context = canvas.getContext('2d');
+    var shadow = document.querySelector('.image-shadow');
+
+    // Draw image on canvas
+    canvas.width = image.width;
+    canvas.height = image.height;
+    context.drawImage(image, 0, 0, canvas.width, canvas.height);
+
+    // Get image data
+    var imageData = context.getImageData(0, 0, canvas.width, canvas.height).data;
+
+    // Calculate average color
+    var averageColor = getAverageColor(imageData);
+
+    // Set shadow color
+    shadow.style.setProperty('--shadow-color', 'rgba(' + averageColor.join(',') + ', 0.5)'); // Adjust opacity as needed
+  });
+
+  // Function to calculate average color
+  function getAverageColor(imageData) {
+    var r = 0, g = 0, b = 0;
+
+    for (var i = 0; i < imageData.length; i += 4) {
+      r += imageData[i];
+      g += imageData[i + 1];
+      b += imageData[i + 2];
+    }
+
+    var totalPixels = imageData.length / 4;
+    r = Math.round(r / totalPixels);
+    g = Math.round(g / totalPixels);
+    b = Math.round(b / totalPixels);
+
+    return [r, g, b];
+  }
+</script>
+</body>
+</html>

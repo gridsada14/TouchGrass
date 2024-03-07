@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinning ray</title>
+
+    <style>
+        .body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .touch-ray img {
+            position: fixed;
+
+            width: 2500px;
+            top: 50%;
+            left: 50%;
+
+            opacity: 0.4;
+            transform: translate(-50%, -50%);
+
+            animation: spin 30s linear infinite;
+        }
+
+        .touch-logo img {
+            position: fixed;
+
+            width: 360px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            z-index: 2;
+        }
+
+        @keyframes spin {
+            from {
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+
+            to {
+                transform: translate(-50%, -50%) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="touch-container">
+        <div class="touch-ray">
+            <img src="./img/sun-ray.png" alt="">
+        </div>
+        <div class="touch-logo">
+            <img src="./img/touch-grass-logo.png" alt="">
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const audio = new Audio('./Sound/minecraft-rare-achievement.mp3');
+            audio.play();
+        });
+    </script>
+</body>
+
+</html>

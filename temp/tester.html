@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            width: 100%;
+            height: auto;
+            background-color: lightcoral;
+            display: flex;
+        }
+        .show-box {
+            width: 80%;
+            height: auto;
+            background-color: lightgray;
+            display: flex;
+            align-items: center;
+            position: relative; /* added */
+        }
+        .show-image {
+            width: 100%;
+            display: block;
+            max-height: 100%; /* added */
+            object-fit: contain; /* added */
+        }
+        .mini-box {
+            width: 20%;
+            height: 100%; /* added */
+            display: flex; /* added */
+            flex-direction: column; /* added */
+        }
+        .mini-image {
+            width: 100%;
+            display: block;
+            max-height: 25%; /* added */
+            object-fit: cover; /* added */
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="show-box">
+            <img src="./img/waterfall.png" alt="" class="show-image">
+        </div>
+        <div class="mini-box">
+            <div class="mini-wrap-1">
+                <img src="./img/jungle.jpg" alt="" class="mini-image">
+            </div>
+            <div class="mini-wrap-2">
+                <img src="./img/house.jpg" alt="" class="mini-image">
+            </div>
+            <div class="mini-wrap-3">
+                <img src="./img/premier-user.png" alt="" class="mini-image">
+            </div>
+            <div class="mini-wrap-4">
+                <img src="./img/mountain.jpg" alt="" class="mini-image">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

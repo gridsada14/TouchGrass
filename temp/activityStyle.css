@@ -1,0 +1,144 @@
+:root {
+    --black: #040f0f;
+    --gray:  #2d3a3a;
+    --d-white: #e7ecef;
+    --white: #fcfffc;
+    --d-green: #248232;
+    --green: #2ba84a;
+}
+
+@font-face {
+    font-family: 'Itim';
+    src: url(./font/Itim-Regular.ttf);
+}
+
+html {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding, 100px);
+}
+
+body {
+    margin: 0;
+    padding-top: 56px;
+    font-family: 'Itim', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 56px;
+    color: var(--white);
+    background-color: var(--d-green);
+}
+
+/* @media (max-width: 1200){ 
+    .act-container{
+        max-width: 1200px;
+    }
+} */
+.act-container {
+    width:70%;
+    max-width: 700px;
+    height: auto;
+    margin: 15px auto;
+    /* background-color: sandybrown; */
+}
+
+.show-img {
+    margin-bottom: 4px;
+}
+
+.show {
+    display: block;         /* fix line under image*/
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+} 
+
+.mini-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini {
+    width: 33%;
+}
+
+.mini-1 {
+    border-radius: 0 0 0 20px;
+}
+
+.mini-3 {
+    border-radius: 0 0 20px 0;
+}
+
+.act-tag {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    flex-direction: row;
+}
+
+.tag {
+    display: flex;
+    height: 30px;
+    margin-right: 10px;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--d-white);
+    border-radius: 15px;
+    
+}
+
+.tag a {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Remove underline from the link */
+    color: #040f0f;
+}
+
+.tag img {
+    width: 20px; /* Adjust the width of the icon as needed */
+    margin-right: 5px; /* Adjust the spacing between the icon and text */
+}
+
+.act-content {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    /* background-color: #248232; */
+}
+
+.title {
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.title-detail {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--gray);
+}
+
+.user {
+    margin-top: 15px;
+}
+
+.user a {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none; /* Remove underline from the link */
+    color: #040f0f;
+}
+
+.user img {
+    width: 64px; /* Adjust the width of the icon as needed */
+    height: 64px;
+    margin-right: 15px;
+    border-radius: 32px;
+}
