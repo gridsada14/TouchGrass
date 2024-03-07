@@ -83,7 +83,6 @@ C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\staticwebassets\msbuild
 C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Touchgrass.props
 C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Touchgrass.props
 C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\staticwebassets.pack.json
-C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css
 C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\scopedcss\bundle\Touchgrass.styles.css
 C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\scopedcss\projectbundle\Touchgrass.bundle.scp.css
@@ -93,3 +92,5 @@ C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.pdb
 C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.genruntimeconfig.cache
 C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\obj\Debug\net8.0\ref\Touchgrass.dll
 C:\Codinggggg\WebappAssignment\PROJECC WEBAPP\TouchGrass\Touchgrass\obj\Debug\net8.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\bin\Debug\net8.0\Database\Activity.json
+C:\WEBDEVVVVVVVVV\TouchGrass\Touchgrass\bin\Debug\net8.0\Database\User.json
