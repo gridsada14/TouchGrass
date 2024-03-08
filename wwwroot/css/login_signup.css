@@ -1,0 +1,581 @@
+/* Import Google font - Poppins */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family: "Poppins", sans-serif;*/
+  font-family: "Itim" !important;
+}
+a {
+  text-decoration: none !important;
+}
+.header {
+  position: fixed !important;
+  height: 80px !important;
+  width: 100% !important;
+  z-index: 100 !important;
+  padding: 0 20px !important;
+}
+.nav {
+  width: 90% !important;
+  margin: 0 auto !important;
+}
+.nav,
+.nav_item {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  flex-wrap: no wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1; /* Allow each item to grow and take equal space */
+}
+
+.nav_link {
+  color: #f9f9f9;
+}
+.button {
+  color: #393838;
+  font-weight: bolder !important;
+}
+.nav_logo {
+  font-size: 40px !important;
+  color: #35ed7e !important;
+}
+.nav_item {
+  column-gap: 25px !important;
+}
+.nav_link:hover {
+  color: #e2fc63 !important;
+}
+.button {
+  padding: 6px 24px !important;
+  border: 2px solid #fff !important;
+  background: transparent !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  border-style: double !important;
+  border-color: #35ed7e !important;
+}
+.button:active {
+  transform: scale(0.98);
+}
+
+/* Home */
+.home {
+  position: relative !important;
+  height: 100vh !important;
+  width: 100% !important;
+  background-image: url("~/Assets/f06f0e374d3197d6e0e1468d0a60901e.jpg") !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+.home::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s ease-out;
+}
+.home.show::before {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+/* From */
+.form_container {
+  position: fixed !important;
+  max-width: 340px;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2);
+  z-index: 101;
+  background: #d0d2f5;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s ease-out;
+}
+.home.show .form_container {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+.signup_form {
+  display: none;
+}
+.form_container.active .signup_form {
+  display: block;
+}
+.form_container.active .login_form {
+  display: none;
+}
+.form_close {
+  position: absolute;
+  top: auto;
+  right: auto;
+  color: #0b0217;
+  font-size: 24px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.form_container h2 {
+  font-size: 24px;
+  color: #0b0217;
+  text-align: center;
+}
+
+.input_box {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: 35px;
+}
+.input_box input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0 30px;
+  color: #333;
+  transition: all 0.2s ease;
+  border-radius: 13px;
+  border-bottom: 1.5px solid #aaaaaa;
+  box-shadow: 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+}
+.input_box input:focus {
+  border-color: #abd6ca;
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #ffffff73;
+}
+.input_box i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #403f6b;
+}
+.input_box i.email,
+.input_box i.password {
+  left: 0;
+}
+.input_box input:focus ~ i.email,
+.input_box input:focus ~ i.password {
+  color: #5cdc8f !important;
+}
+.input_box i.pw_hide {
+  right: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+.option_field {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form_container a {
+  color: #166a6a;
+  font-size: 16px;
+  font-weight: bold;
+}
+.form_container a:hover {
+  text-decoration: underline;
+}
+.checkbox {
+  display: flex;
+  column-gap: 16px;
+  white-space: nowrap;
+}
+.checkbox input {
+  accent-color: #38e18a !important;
+}
+.checkbox label {
+  font-size: 16px;
+  cursor: pointer;
+  color: #0b0217;
+}
+.form_container .button {
+  background: #38e18a !important;
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 15px;
+}
+.login_signup {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.m-0 {
+  margin: 0 !important;
+  width: auto;
+  height: auto;
+
+  object-fit: contain;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+[dir="ltr"] .mr-3,
+[dir="ltr"] .mx-3 {
+  margin-right: 1rem !important;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+/*!important forces the style change*/
+.btn-oa2-apple-id {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: #fff !important;
+}
+.btn-oa2-apple-id:hover {
+  background-color: #353535 !important;
+}
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+.btn-oa2-facebook {
+  background-color: #3e5c9e !important;
+  border-color: #3e5c9e !important;
+  color: #fff !important;
+}
+
+
+
+.btn-oa2-google-oauth2 {
+  background-color: #ffffff !important;
+  border-color: #fff !important;
+  color: #2464ca !important;
+}
+
+.btn-oa2-azuread-oauth2 {
+  background-color: #252525 !important;
+  border-color: #252525 !important;
+  color: #fff !important;
+}
+
+.btn-social {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #126f9a;
+  color: #126f9a;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  height: 36px;
+  margin-bottom: 1rem;
+  width: 224px;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button !important;
+  appearance: button;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+button {
+  border-radius: 0;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.btn-social > div {
+  display: flex;
+
+  padding: 0 0.7rem; /* Adjust padding as needed */
+}
+
+.btn-social .btn-tpa__image-icon {
+  background-color: #0000;
+  max-height: 24px;
+  max-width: 24px;
+  background-size: contain !important;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+
+
+.btn-social .btn-tpa__image-icon {
+  background-color: #0000;
+  max-height: 24px;
+  max-width: 24px;
+  background-size: cover;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+
+
+.row .sr-only {
+  visibility: hidden;
+  display: none;
+}
+
+.form_container .line {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  margin: 36px 0;
+  background-color: #241f1f;
+}
+
+.form_container .line::before {
+  content: "OR";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #d0d2f5;
+  color: #0b0217;
+  padding: 0 15px;
+}
+
+/* Breakpoints Media Queries */
+
+
+/*phone like  Iphone 5, SE, galaxy s8, s20  to iphone 14 pro max*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav {
+    padding: 5px; /* Reduce padding to make nav less wide */
+
+    width: 100%; /* Make nav width match parent */
+  }
+
+  .nav_logo {
+    font-size: 13px; /* Adjust as needed for smaller screens */
+    margin-right: 10px;
+  }
+
+  .nav_item {
+    font-size: 8px; /* Smaller font size for navigation items */
+  }
+
+  .form_container {
+    width: 80%; /* Make form width match nav for consistency */
+    max-width: 250px; /* Set a max-width to prevent being too large*/
+    padding: 10px;
+    height: auto;
+  }
+
+  .input_box input {
+    font-size: 14px; /* Adjust input font size, consider padding too */
+  }
+  .row {
+    display: flex; /* Enable flexbox */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    justify-content: space-around; /* Distribute items with space around them */
+  }
+
+  .row > div {
+    /* Targets immediate children of .row, likely your columns */
+    flex-basis: 50%; /* Make each column take up half the width */
+  }
+
+  .option_field .forgot_pw {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  .option_field .checkbox label {
+    font-size: 12px;
+  }
+  /* Reduce button size */
+  .btn-social,
+  .btn-oa2-google-oauth2,
+  .btn-oa2-azuread-oauth2,
+  .btn-oa2-facebook,
+  .btn-oa2-apple-id {
+    margin-bottom: 0.5rem; /* Reduce spacing between buttons */
+    font-size: 12px; /* Adjust font-size as needed */
+    width: calc(
+      50% - 0.6rem
+    ); /* Make buttons take half the container width (adjust spacing as needed) */
+  }
+
+  .button {
+    padding: 3px;
+    border: 3px solid #fff;
+    background: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #35ed7e;
+    font-size: 10px;
+    font-weight: normal;
+  }
+}
+
+/*surface duo, mini tablet like tab s4, nexus7*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .nav {
+    padding: 5px; /* Reduce padding to make nav less wide */
+
+    width: 100%; /* Make nav width match parent */
+  }
+
+  .nav_logo {
+    font-size: 14px; /* Adjust as needed for smaller screens */
+    margin-right: 10px;
+  }
+
+  .nav_item {
+    font-size: 12px; /* Smaller font size for navigation items */
+  }
+  /* Reduce button size */
+  .btn-social,
+  .btn-oa2-google-oauth2,
+  .btn-oa2-azuread-oauth2,
+  .btn-oa2-facebook,
+  .btn-oa2-apple-id {
+    margin-left: 3%;
+    margin-bottom: 0.5rem; /* Reduce spacing between buttons */
+    font-size: 12px; /* Adjust font-size as needed */
+    width: calc(
+      50% - 0.7rem
+    ); /* Make buttons take half the container width (adjust spacing as needed) */
+  }
+
+  .button {
+    padding: 7px;
+    border: 3px solid #fff;
+    background: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #35ed7e;
+    font-size: 10px;
+    font-weight: normal;
+  }
+}
+
+/*ipad mini to ipad (not) pro*/
+@media (min-width: 768px) and (max-width: 979px) {
+  /* Reduce button size */
+  .btn-social,
+  .btn-oa2-google-oauth2,
+  .btn-oa2-azuread-oauth2,
+  .btn-oa2-facebook,
+  .btn-oa2-apple-id {
+    margin-bottom: 0.5rem; /* Reduce spacing between buttons */
+    margin-left: 3%;
+    font-size: 12px; /* Adjust font-size as needed */
+    width: calc(
+      50% - 0.8rem
+    ); /* Make buttons take half the container width (adjust spacing as needed) */
+  }
+}
+
+/*ipad pro to mini laptop*/
+@media (min-width: 980px) and (max-width: 1199px) {
+  /* Reduce button size */
+  .btn-social,
+  .btn-oa2-google-oauth2,
+  .btn-oa2-azuread-oauth2,
+  .btn-oa2-facebook,
+  .btn-oa2-apple-id {
+    margin-bottom: 0.5rem; /* Reduce spacing between buttons */
+    margin-left: 3%;
+    font-size: 12px; /* Adjust font-size as needed */
+    width: calc(
+      50% - 0.8rem
+    ); /* Make buttons take half the container width (adjust spacing as needed) */
+  }
+}
+
+/*large desktops*/
+@media (min-width: 1200px) {
+  .home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("~/Assets/f06f0e374d3197d6e0e1468d0a60901e.jpg");
+    background-size: 70%;
+
+    background-position: center;
+  }
+  .nav_logo {
+    font-size: 40px; /* Adjust as needed for smaller screens */
+    margin: 50px;
+  }
+  
+  .nav_item {
+    max-width: 450px;
+    padding: 15px 20px;
+    font-size: 20px;
+    
+  }
+  
+  /* Reduce button size */
+  .btn-social,
+  .btn-oa2-google-oauth2,
+  .btn-oa2-azuread-oauth2,
+  .btn-oa2-facebook,
+  .btn-oa2-apple-id {
+    margin-bottom: 0.5rem; /* Reduce spacing between buttons */
+    margin-left: 3%;
+    font-size: 12px; /* Adjust font-size as needed */
+    width: calc(
+      50% - 0.8rem
+    ); /* Make buttons take half the container width (adjust spacing as needed) */
+  }
+}

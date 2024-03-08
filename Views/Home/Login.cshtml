@@ -1,0 +1,175 @@
+@page "home/login"
+
+<!-- Header -->
+<header class="header">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Registration Form</title>
+    <link rel="stylesheet" href="~/css/login_signup.css" />
+    <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  </head>
+  <nav class="nav">
+    <a href="#" class="nav_logo">TouchGrass</a>
+
+  
+
+    <button class="button" id="form-open">SIGN IN</button>
+  </nav>
+</header>
+
+<!-- Home -->
+<section class="home">
+  <div class="form_container">
+    <i class="uil uil-times form_close"></i>
+
+    <!-- Login From -->
+    <div class="form login_form">
+
+      <div class="form-content">
+
+        <form action="#">
+          <h2>SIGN IN</h2>
+
+          <div class="input_box">
+            <input type="email" placeholder="Enter your email" required />
+            <i class="uil uil-envelope-alt email"></i>
+          </div>
+
+          <div class="input_box">
+            <input type="password" placeholder="Enter your password" required />
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+
+          <div class="option_field">
+            <span class="checkbox">
+              <input type="checkbox" id="check" />
+              <label for="check">Remember me</label>
+            </span>
+            <a href="#" class="forgot_pw">Forgot password?</a>
+          </div>
+
+          <button class="button">SIGN IN</button>
+        </form>
+        <div class="login_signup">
+          <span>Don't have an account?
+            <a href="#" id="signup">Sign Up</a></span>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="row m-0">
+        <button id="oa2-apple-id" type="button" class="btn-social btn-oa2-apple-id mr-3"
+          data-provider-url="/auth/login/apple-id/?auth_entry=login&amp;next=%2Fdashboard">
+          <div aria-hidden="true">
+            <img class="btn-tpa__image-icon" src="https://edxuploads.s3.amazonaws.com/Left_White_Logo_Large2x.png"
+              alt="icon Apple" />
+          </div>
+          <span id="provider-name" class="notranslate mr-auto pl-2" aria-hidden="true">Apple</span><span
+            class="sr-only">Sign in with Apple</span>
+        </button><button id="oa2-facebook" type="button" class="btn-social btn-oa2-facebook"
+          data-provider-url="/auth/login/facebook/?auth_entry=login&amp;next=%2Fdashboard">
+          <div aria-hidden="true">
+            <img class="btn-tpa__image-icon"
+              src="https://th.bing.com/th/id/R.6c3ea8b640f61035021c20dd5dcd37fa?rik=31mzN9qX%2bAR9pA&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f377-3776210_facebook-logo-vector-logovectornet-logo-facebook-2019-png.png&ehk=feGZ0i4yauVvpdtQu%2bTAeLkp%2bpCt2QN1zx7GrMwtQuA%3d&risl=&pid=ImgRaw&r=0"
+              alt="icon Facebook" />
+          </div>
+          <span id="provider-name" class="notranslate mr-auto pl-2" aria-hidden="true">Facebook</span><span
+            class="sr-only">Sign in with Facebook</span>
+        </button><button id="oa2-google-oauth2" type="button" class="btn-social btn-oa2-google-oauth2 mr-3"
+          data-provider-url="/auth/login/google-oauth2/?auth_entry=login&amp;next=%2Fdashboard">
+          <div aria-hidden="true">
+            <img class="btn-tpa__image-icon" src="https://edxuploads.s3.amazonaws.com/btn_google_light.svg"
+              alt="icon Google" />
+          </div>
+          <span id="provider-name" class="notranslate mr-auto pl-2" aria-hidden="true">Google</span><span
+            class="sr-only">Sign in with Google</span>
+        </button><button id="oa2-azuread-oauth2" type="button" class="btn-social btn-oa2-azuread-oauth2"
+          data-provider-url="/auth/login/azuread-oauth2/?auth_entry=login&amp;next=%2Fdashboard">
+          <div aria-hidden="true">
+            <img class="btn-tpa__image-icon" src="https://edxuploads.s3.amazonaws.com/MSFT-logo-only.png"
+              alt="icon Microsoft" />
+          </div>
+          <span id="provider-name" class="notranslate mr-auto pl-2" aria-hidden="true">Microsoft</span><span
+            class="sr-only">Sign in with Microsoft</span>
+        </button>
+      </div>
+    </div>
+    <!-- Signup From -->
+    <div class="form signup_form">
+      <div class="form-content">
+        <form action="#">
+
+          <h2>SIGN UP</h2>
+
+          <div class="input_box">
+            <input type="email" placeholder="Your Email" required />
+            <i class="uil uil-envelope-alt email"></i>
+          </div>
+          <div class="input_box">
+            <input type="password" placeholder="Create your own password" required />
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+          <div class="input_box">
+            <input type="password" placeholder="Confirm the password" required />
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+
+          <button class="button">Register Now</button>
+
+
+        </form>
+        <div class="login_signup">
+          <span>Already have an account? <a href="#" id="login">Sign In</a></span>
+        </div>
+
+      </div>
+      <div class="line"></div>
+      <div class="row m-0">
+        <button id="oa2-apple-id" type="button" class="btn-social btn-oa2-apple-id mr-3"
+          data-provider-url="/auth/login/apple-id/?auth_entry=login&amp;next=%2Fdashboard">
+          <div aria-hidden="true">
+            <img class="btn-tpa__image-icon" src="https://edxuploads.s3.amazonaws.com/Left_White_Logo_Large2x.png"
+              alt="icon Apple" />
+          </div>
+          <span id="provider-name" class="notranslate mr-auto pl-2" aria-hidden="true">Apple</span><span
+            class="sr-only">Sign up with Apple</span>
+        </button><button id="oa2-facebook" type="button" class="btn-social btn-oa2-facebook"
+          data-provider-url="/auth/login/facebook/?auth_entry=login&amp;next=%2Fdashboard">
+          <div aria-hidden="true">
+            <img class="btn-tpa__image-icon"
+              src="https://th.bing.com/th/id/R.6c3ea8b640f61035021c20dd5dcd37fa?rik=31mzN9qX%2bAR9pA&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f377-3776210_facebook-logo-vector-logovectornet-logo-facebook-2019-png.png&ehk=feGZ0i4yauVvpdtQu%2bTAeLkp%2bpCt2QN1zx7GrMwtQuA%3d&risl=&pid=ImgRaw&r=0"
+              alt="icon Facebook" />
+          </div>
+          <span id="provider-name" class="notranslate mr-auto pl-2" aria-hidden="true">Facebook</span><span
+            class="sr-only">Sign up with Facebook</span>
+        </button><button id="oa2-google-oauth2" type="button" class="btn-social btn-oa2-google-oauth2 mr-3"
+          data-provider-url="/auth/login/google-oauth2/?auth_entry=login&amp;next=%2Fdashboard">
+          <div aria-hidden="true">
+            <img class="btn-tpa__image-icon" src="https://edxuploads.s3.amazonaws.com/btn_google_light.svg"
+              alt="icon Google" />
+          </div>
+          <span id="provider-name" class="notranslate mr-auto pl-2" aria-hidden="true">Google</span><span
+            class="sr-only">Sign up with Google</span>
+        </button><button id="oa2-azuread-oauth2" type="button" class="btn-social btn-oa2-azuread-oauth2"
+          data-provider-url="/auth/login/azuread-oauth2/?auth_entry=login&amp;next=%2Fdashboard">
+          <div aria-hidden="true">
+            <img class="btn-tpa__image-icon" src="https://edxuploads.s3.amazonaws.com/MSFT-logo-only.png"
+              alt="icon Microsoft" />
+          </div>
+          <span id="provider-name" class="notranslate mr-auto pl-2" aria-hidden="true">Microsoft</span><span
+            class="sr-only">Sign up with Microsoft</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script src="~/js/login_signup.js"></script>

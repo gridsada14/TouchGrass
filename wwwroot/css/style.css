@@ -1,0 +1,12 @@
+:root {
+  --background: #040f0f;                  /* background */  
+  --content-bg: #161d1d;      /* new */   /* box content background */
+  --line-elem:  #2d3a3a;                  /* line element for background */
+  --font-topic: #fcfffc;                  /* Head topic of text */ 
+  --white-shadow: #e7ecef;                /* not use yet*/ 
+  --font-detail: #6c707a;     /* new */   /* detail topic of text */
+  --main-elem: #2ba84a;                   /* main color */
+  --main-dark: #248232;                   /* element green shadow */
+  --main-border: #258e3f;     /* new */   /* for border of main color */
+  --highlight: #155124;       /* new */   /* high light in dark theme */
+}
