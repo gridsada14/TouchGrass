@@ -21,4 +21,12 @@
         </div>
     </div>
 </body>
+@if(ViewBag.ErrorMessage != null)
+{
+    <script>
+        window.onload = function() {
+            alert("@ViewBag.ErrorMessage");
+        };
+    </script>
+}
 </html>

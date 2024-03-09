@@ -43,11 +43,9 @@
   "🎨 art",
   "🎊 party",
   };
-  var userPicClaim = User.Claims.FirstOrDefault(c => c.Type == "Pic");
-  var userPicUrl = userPicClaim?.Value;
 
-  var userName = User.Identity.Name;
-
+  var userName = @Context.Session.GetString("Name");
+  var userPic = @Context.Session.GetString("Pic");
 }
 
 
@@ -134,29 +132,10 @@
             </div>
           </div>
           <a class="user-ele" id="setting" asp-area="" asp-controller="Home" asp-action="Setting"><img src="~/pic/settings.png"><p class="ele-txt">Setting</p></a>
-          <a class="user-ele" id="profile"><img src="@userPicUrl"><p class="ele-txt">@userName</p></a>
+          <a class="user-ele" id="profile"><img src="@userPic"><p class="ele-txt">@userName</p></a>
         </div>
       </div>
     </nav>
-        @* <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">asp_test</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav> *@
     </header>
   }
     <div class="container">
@@ -165,14 +144,6 @@
         </main>
     </div>
 
-    @* <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - asp_test - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer> *@
-    @* <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script> *@
     <script src="~/js/site.js"></script>
     <script src="~/js/setting.js"></script>
     @await RenderSectionAsync("Scripts", required: false)

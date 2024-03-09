@@ -20,6 +20,7 @@ public class LogoutController : Controller
     public IActionResult Logout()
     {
         HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme).Wait();
+        Response.Cookies.Delete(".AspNetCore.Session");
         return RedirectToAction("Login","Login");
     }
 

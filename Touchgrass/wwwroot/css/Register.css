@@ -1,3 +1,14 @@
+body {
+    background-color: #040f0f;
+    font-family: 'Itim';
+    margin: 0 !important;
+    padding: 0 !important;
+  
+    /* Only in login */
+    width: 100% !important;
+    height: 100% !important;
+  }
+
 .viewports {
     width: 100vw;
     height: 100vh;

@@ -14,9 +14,12 @@ public class LoginController : Controller
 {
     private readonly ILogger<LoginController> _logger;
 
-    public LoginController(ILogger<LoginController> logger)
+    private readonly ISession _session;
+
+    public LoginController(ILogger<LoginController> logger, IHttpContextAccessor httpContextAccessor)
     {
         _logger = logger;
+        _session = httpContextAccessor.HttpContext.Session;
     }
     
     public IActionResult Login()
@@ -30,14 +33,14 @@ public class LoginController : Controller
         var usrjson = System.IO.File.ReadAllText("./Database/User.json");
         var users = JsonSerializer.Deserialize<List<User>>(usrjson);
         var user = users.FirstOrDefault(u => u.Name == username && u.Password == password);
-        if (user != null)
+        if (username != null && password != null && user != null)
         {
+            _session.SetString("Name",user.Name);
+            _session.SetString("Pic",user.Pic);
+
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, user.Name),
-                new Claim("Ids", user.Ids.ToString()),
-                new Claim("Bio", user.Bio),
-                new Claim("Pic", user.Pic)
             };
 
             var claimsIdentity = new ClaimsIdentity(
@@ -57,6 +60,7 @@ public class LoginController : Controller
         }
         else
         {
+            ViewBag.ErrorMessage = "Invalid";
             return View();
         }
     }

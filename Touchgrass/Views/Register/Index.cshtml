@@ -12,12 +12,20 @@
         <img class="bgimg" src="https://thechuunicorner.files.wordpress.com/2019/09/inksybw.png">
         <div class="login-box">
             <p class="login-text">Register</p>
-            <form asp-controller="Home" asp-action="Index" class="login-form">
-                <input type="text" class="username-box" placeholder="Username">
-                <input type="password" class="password-box" placeholder="Password">
+            <form method="post" asp-controller="Register" asp-action="Index" class="login-form">
+                <input type="text" class="username-box" placeholder="Username" name="username">
+                <input type="password" class="password-box" placeholder="Password" name="password">
                 <button type="submit" class="submit-button">Submit</button>
             </form>
         </div>
     </div>
 </body>
+@if(ViewBag.ErrorMessage != null)
+{
+    <script>
+        window.onload = function() {
+            alert("@ViewBag.ErrorMessage");
+        };
+    </script>
+}
 </html>

@@ -5,6 +5,10 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Touchgrass.Models;
 using System.Text.Json;
+using System;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 
 namespace Touchgrass.Controllers;
 [Authorize]
@@ -28,17 +32,9 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult Index(List<string> tag, string date, string keyword)
     {
-        // //test data pls delete
-        // tag = ["💀 murder","💊 hospital","🏖️ beach","🎲 boardgame"];
-        // date = "11/9/2004";
-        // keyword = "Ga";
-        // //////
-
 
         var actjson = System.IO.File.ReadAllText("./Database/Activity.json");
         var act = JsonSerializer.Deserialize<List<ActivityModel>>(actjson);
-        
-        Console.WriteLine(keyword);
 
         
         if (tag != null){
@@ -61,29 +57,23 @@ public class HomeController : Controller
             string newdate = new string(dateAsChars);
             var dateFiltered = act.FindAll(ex => ex.Date == newdate);
             act = dateFiltered;
-            Console.WriteLine(newdate);
         }
 
-        // if (keyword != null){
-        //     var searchFiltered = act.FindAll(ex => ex.Title.Contains(keyword));
-        //     act = searchFiltered;
-        // }
+        if (keyword != null){
+            var searchFiltered = act.FindAll(ex => ex.Title.Contains(keyword));
+            act = searchFiltered;
+        }
         
-        foreach (var i in tag) {
-            Console.WriteLine(i);
-        }
-
-        //this one for debug
-        foreach (var i in act) {
-            Console.WriteLine(i.Title);
-        }
-        /////
 
         return View(act);
     }
 
     public IActionResult Setting()
     {
+        if (TempData.ContainsKey("ErrorMessage"))
+        {
+            ViewBag.ErrorMessage = TempData["ErrorMessage"];
+        }
         return View();
     }
 

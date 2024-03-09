@@ -169,7 +169,7 @@ body {
   display: none;
   flex-direction: column;
   position: absolute;
-  top: 75px;
+  top: 60px;
   right: 0px;
   padding-top: 0px;
   border: 1px solid black;
@@ -396,7 +396,7 @@ body {
 }
 
 
-@media only screen and (max-width: 480px){
+/* @media only screen and (max-width: 480px){
 
   .logo-container .logo{
     padding-left: 15px;
@@ -427,7 +427,6 @@ body {
     position: static;
     padding-top: 0px;
     background-color: #fcfffc;
-    /* border: 1px solid black; */
   }
 
   .noti-tab p{
@@ -436,14 +435,9 @@ body {
 
   .merge-container{
     gap: 5vw;
-    /* margin-left: 0px; */
   }
 
-  /* .search-container .search-bar{
-    width: 1vw;
-  } */
-
-}
+} */
 
 
 @media only screen and (min-width: 480px) and (max-width: 768px){

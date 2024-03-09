@@ -1,26 +1,37 @@
 @{
     ViewData["Title"] = "Setting";
-    
+    var userPic = @Context.Session.GetString("Pic");
 }
 <div class="setting-container">
     <div class="setting-box">
         <p>Account</p>
+        <a onclick="HSbyClass('.Info-box',event)">• Edit Info (Not Finished)</a>
+        <a onclick="HSbyClass('.picture-box',event)">• Change Picture</a>
+        <div class="picture-box">
+            <img class="current-picture" src="@userPic">
+            <form method="post" asp-controller="Setting" asp-action="Picture" enctype="multipart/form-data">
+                <input type="file" name="filename" accept=".png, .jpg, .jpeg">
+                <button type="submit">Change Picture</button>
+            </form>
+        </div>
         <a onclick="HSbyClass('.password-box',event)">• Change Password</a>
         <div class="password-box">
-            <input class="old-password" type="password" placeholder="old-password">
-            <input class="new-password" type="password" placeholder="new-password">
-            <button type="button">Save Changes</button>
+            <form method="post" asp-controller="Setting" asp-action="Password" class="change-password">
+                <input class="old-password" type="password" placeholder="old-password" name="old_password">
+                <input class="new-password" type="password" placeholder="new-password" name="new_password">
+                <button type="submit">Save Changes</button>
+            </form>
         </div>
         <a onclick="HSbyClass('.logout-box',event)">• Log Out</a>
         <div class="logout-box">
-            <form method="post" asp-controller="Logout" asp-action="Logout">
+            <form method="post" asp-controller="Logout" asp-action="Logout" class="logout">
                 <button type="submit">Log Out</button>
             </form>
         </div>
     </div>
     <div class="setting-box">
         <p>Notification</p>
-        <a onclick="HSbyClass('.on-off-box',event)">• Turn On/Off</a>
+        <a onclick="HSbyClass('.on-off-box',event)">• Turn On/Off (Not Finished)</a>
         <div class="on-off-box">
             <label class="switch">
                 <input type="checkbox" id="myonoffswitch" onchange="toggleSwitch()">
@@ -29,3 +40,11 @@
         </div>
     </div>
 </div>
+@if(ViewBag.ErrorMessage != null)
+{
+    <script>
+        window.onload = function() {
+            alert("@ViewBag.ErrorMessage");
+        };
+    </script>
+}

@@ -1,16 +1,1 @@
-[
-    {
-        "Name":"Rick Astley",
-        "Password":"rickroll",
-        "Ids": 1, 
-        "Bio": "I LOVE BNUYYYY",
-        "Pic": "https://assets-prd.ignimgs.com/2023/08/15/rick-vs-rick-prime-music-video-rick-and-morty-adult-swim-0-2-screenshot-1692118302769.png"
-    },
-    {
-        "Name":"Gay Guy",
-        "Password":"muscle",
-        "Ids": 2, 
-        "Bio": "I LOVE MUSCLE",
-        "Pic": "https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/01/22/Pictures/_16d92630-3d2c-11ea-8d17-9068169bb2f5.jpg"
-    }
-]
+[{"Name":"Rick Astley","Password":"rickroll","Ids":1,"Bio":"I LOVE BNUYYYY","Pic":"/pic/user/22d6fcf7-ad27-432b-9f04-da9655025eb5_channels4_profile.jpg"},{"Name":"Gay Guy","Password":"muscle","Ids":2,"Bio":"I LOVE MUSCLE","Pic":"/pic/user/3a5cfaee-1af2-470e-bc00-6ebfbc0abb83_me-when-i-see-a-spider-and-im-holding-a-crossing-sign-v0-boadbriii62c1.png"},{"Name":"cumdrink","Password":"drink","Ids":3,"Bio":"Insert Your Bios Here!","Pic":"/pic/user/00a36c7a-7f39-4d8d-9bf9-4215de5fe2b4_Screenshot%202024-03-02%20173152.png"},{"Name":"Yomayo","Password":"123456","Ids":4,"Bio":"Insert Your Bios Here!","Pic":" "},{"Name":"Yomayo1","Password":"2131232131","Ids":5,"Bio":"Insert Your Bios Here!","Pic":" "},{"Name":"2312331","Password":"123123123","Ids":6,"Bio":"Insert Your Bios Here!","Pic":" "}]

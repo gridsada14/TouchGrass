@@ -42,7 +42,48 @@
     margin-bottom: 10px;
 }
 
-.setting-container .password-box {
+.setting-container .picture-box {  
+    display: none;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.setting-container .picture-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.setting-container .picture-box form input{
+    color: #ffffff;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.setting-container .picture-box form button{
+    background-color: #248232;
+    border-radius: 15px;
+    cursor: pointer;
+    border-style: solid;
+    margin-left: 5px;
+}
+
+.setting-container .picture-box form button:hover{
+    background-color: #2ba84a;
+}
+
+.current-picture{
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+}
+
+
+.setting-container .password-box {  
     display: none;
     flex-direction: column;
     padding-left: 10px;

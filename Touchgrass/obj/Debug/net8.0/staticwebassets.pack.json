@@ -121,6 +121,18 @@
       "PackagePath": "staticwebassets\\pic\\user.png"
     },
     {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\pic\\user\\00a36c7a-7f39-4d8d-9bf9-4215de5fe2b4_Screenshot 2024-03-02 173152.png",
+      "PackagePath": "staticwebassets\\pic\\user\\00a36c7a-7f39-4d8d-9bf9-4215de5fe2b4_Screenshot 2024-03-02 173152.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\pic\\user\\22d6fcf7-ad27-432b-9f04-da9655025eb5_channels4_profile.jpg",
+      "PackagePath": "staticwebassets\\pic\\user\\22d6fcf7-ad27-432b-9f04-da9655025eb5_channels4_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\pic\\user\\3a5cfaee-1af2-470e-bc00-6ebfbc0abb83_me-when-i-see-a-spider-and-im-holding-a-crossing-sign-v0-boadbriii62c1.png",
+      "PackagePath": "staticwebassets\\pic\\user\\3a5cfaee-1af2-470e-bc00-6ebfbc0abb83_me-when-i-see-a-spider-and-im-holding-a-crossing-sign-v0-boadbriii62c1.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Touchgrass.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
