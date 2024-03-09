@@ -1,0 +1,16 @@
+[
+    {
+        "Name":"Rick Astley",
+        "Password":"rickroll",
+        "Ids": 1, 
+        "Bio": "I LOVE BNUYYYY",
+        "Pic": "https://assets-prd.ignimgs.com/2023/08/15/rick-vs-rick-prime-music-video-rick-and-morty-adult-swim-0-2-screenshot-1692118302769.png"
+    },
+    {
+        "Name":"Gay Guy",
+        "Password":"muscle",
+        "Ids": 2, 
+        "Bio": "I LOVE MUSCLE",
+        "Pic": "https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/01/22/Pictures/_16d92630-3d2c-11ea-8d17-9068169bb2f5.jpg"
+    }
+]
