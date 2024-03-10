@@ -1,12 +1,12 @@
 @{
     ViewData["Title"] = "Setting";
     var userPic = @Context.Session.GetString("Pic");
+    var userBio = @Context.Session.GetString("Bio");
 }
 <div class="setting-container">
     <div class="setting-box">
         <p>Account</p>
-        <a onclick="HSbyClass('.Info-box',event)">• Edit Info (Not Finished)</a>
-        <a onclick="HSbyClass('.picture-box',event)">• Change Picture</a>
+        <a onclick="HSbyClass('.picture-box',event)">• User Picture</a>
         <div class="picture-box">
             <img class="current-picture" src="@userPic">
             <form method="post" asp-controller="Setting" asp-action="Picture" enctype="multipart/form-data">
@@ -14,7 +14,14 @@
                 <button type="submit">Change Picture</button>
             </form>
         </div>
-        <a onclick="HSbyClass('.password-box',event)">• Change Password</a>
+        <a onclick="HSbyClass('.bio-box',event)">• User Bio</a>
+        <div class="bio-box">
+            <form method="post" asp-controller="Setting" asp-action="Bio">
+                <input type="text" name="bio" value="@userBio" placeholder="Write your Bios here!">
+                <button type="submit">Change Infos</button>
+            </form>
+        </div>
+        <a onclick="HSbyClass('.password-box',event)">• User Password</a>
         <div class="password-box">
             <form method="post" asp-controller="Setting" asp-action="Password" class="change-password">
                 <input class="old-password" type="password" placeholder="old-password" name="old_password">

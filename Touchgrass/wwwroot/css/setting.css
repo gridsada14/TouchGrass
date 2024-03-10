@@ -7,6 +7,41 @@
     margin-top: 40px;
 }
 
+.setting-container .bio-box {  
+    display: none;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.setting-container .bio-box form{  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 90%;
+}
+
+.setting-container .bio-box input{
+    color: #000000;
+    border-radius: 15px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.setting-container .bio-box button{
+    background-color: #248232;
+    border-radius: 15px;
+    cursor: pointer;
+    border-style: solid;
+}
+
+.setting-container .bio-box button:hover{
+    background-color: #2ba84a;
+}
+
 .setting-container .setting-box {
     display: flex;
     flex-direction: column;

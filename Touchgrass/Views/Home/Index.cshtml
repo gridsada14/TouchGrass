@@ -11,7 +11,7 @@
 <body>
 <div class="allcontent">
     @foreach (var item in Model) {
-        <div class="act-block" type="button" onclick="event.stopPropagation();viewActivity();">
+        <div class="act-block" type="button" onclick="event.stopPropagation();viewActivity(this);">
             <div class="left-side">
                 <div class="tag-display" id="tag-display">
                     @if (item.Tag.Count>3) {
