@@ -37,7 +37,13 @@ public class LoginController : Controller
         {
             _session.SetString("Name",user.Name);
             _session.SetString("Pic",user.Pic);
-            _session.SetString("Bio",user.Bio);
+            if (user.Bio != null) {
+                _session.SetString("Bio",user.Bio);
+            }
+            else{
+                _session.SetString("Bio","");
+            }
+            
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, user.Name),
