@@ -10,7 +10,7 @@
         <div class="picture-box">
             <img class="current-picture" src="@userPic">
             <form method="post" asp-controller="Setting" asp-action="Picture" enctype="multipart/form-data">
-                <input type="file" name="filename" accept=".png, .jpg, .jpeg">
+                <input type="file" name="filename" accept="image/*">
                 <button type="submit">Change Picture</button>
             </form>
         </div>

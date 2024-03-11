@@ -66,12 +66,19 @@ public class HomeController : Controller
         return View(act);
     }
 
+    // public IActionResult Join
+
     public IActionResult Setting()
     {
         if (TempData.ContainsKey("ErrorMessage"))
         {
             ViewBag.ErrorMessage = TempData["ErrorMessage"];
         }
+        return View();
+    }
+
+    public IActionResult Profile()
+    {
         return View();
     }
 
