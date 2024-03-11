@@ -1,5 +1,7 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 
 <head>
     <meta charset="UTF-8">
@@ -7,27 +9,31 @@
     <title>Touch Grass</title>
 
     <link rel="icon" type="image/png" href="~/img/touch-grass-logo.png">
-    <link rel="stylesheet" href="~/css/activityStyle.css">
-    <script src="activityScript.js"></script>
+    <link rel="stylesheet" href="~/css/ActStyle.css">
+    
+    @{
+        ViewData["Title"] = "Activity ";
 
+        @* string jsonModelTime = System.Text.Json.JsonSerializer.Serialize(Model.Time); *@
+    }
+
+    
 </head>
+
 <body>
-    <!------------------ nav-bar ------------------->
-    @* <div class="navbar">
-        <div class="navbar-logo">
-            <img src="~/img/touch-grass-logo.png">
-        </div>
-
-        <div class="navbar-name">
-            TouchGrass
-        </div>
-    </div>*@
-
-    <div class="mycontainer"> 
-        <!------------------------------------ main --------------------------------------->
+    @* <div class="quick-btn">
+        <p>↥</p>
+    </div> *@
+    <div class="my-container">
         <div class="main-container">
             <div class="slide-container">
-                <div class="slide-content" style="display: block;">
+                @foreach (var image in @Model.Img) {
+                    <div class="slide-content">
+                        <img src="@image" class="background"></img>
+                        <img src="@image" class="show">
+                    </div>
+                }
+                @* <div class="slide-content" style="display: block;">
                     <img src="~/img/mountain.jpg" class="background"></img>
                     <img src="~/img/mountain.jpg" class="show">
                 </div>
@@ -42,10 +48,10 @@
                 <div class="slide-content">
                     <img src="~/img/house.jpg" class="background"></img>
                     <img src="~/img/house.jpg" class="show">
-                </div>
-                
-                <a class="prev" onclick="moveSlides(-1)"><</a>
-                <a class="next" onclick="moveSlides(1)">></a>
+                </div> *@
+
+                <a class="prev" onclick="moveSlides(-1)">←</a>
+                <a class="next" onclick="moveSlides(1)">→</a>
 
                 <div class="dot-content">
                     <span class="dot active" onclick="currentSlide(1)"></span>
@@ -54,33 +60,24 @@
                     <span class="dot" onclick="currentSlide(4)"></span>
                 </div>
             </div>
+
             <div class="tag-container">
-                <a href="#" class="tag">
-                    <img class="tag-icon" src="~/img/public.png">
-                    <div class="tag-type">public</div>
-                </a>
-                <a href="#" class="tag">
-                    <img class="tag-icon" src="~/img/board-game.png">
-                    <div class="tag-type">board-game</div>
-                </a>
-                <a href="#" class="tag">
-                    <img class="tag-icon" src="~/img/art.png">
-                    <div class="tag-type">art</div>
-                </a>
-                <a href="#" class="tag">
-                    <img class="tag-icon" src="~/img/cafe.png">
-                    <div class="tag-type">cafe</div>
-                </a>
+                @foreach (var item in @Model.Tag) {
+                    <a href="#" class="tag">
+                        <div class="tag-type">@item</div>
+                    </a>
+                }
             </div>
+
             <div class="title-container">
-                <div class="title-head">หาคนไปเล่นบอร์ดเกมที่ LuckandRoll</div>
+                <div class="title-head">@Model.Title</div>
                 <div class="title-content">
                     <div class="title-time">
                         <div class="time-icon">
                             <img src="/img/time.png">
                         </div>
                         <p class="time-data">
-                            29 มีนาคม 2567 <br> 09.00-16.00
+                            @Model.Date
                         </p>
                     </div>
                     <div class="title-place">
@@ -88,187 +85,81 @@
                             <img src="~/img/placeholder.png">
                         </div>
                         <p class="place-data">
-                            LuckandRoll Boardgame Cafe  <br>
-                            เลขที่ 669/1 ซอยฉลองกรุง 1 ถนนฉลองกรุง แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร
+                            @Model.Place
                         </p>
                     </div>
                 </div>
             </div>
+
             <div class="info-container">
                 <div class="info-head">
                     More Info
                 </div>
+                @{  
+                    string description = Model.Description;
+                    string[] infoArray = System.Text.RegularExpressions.Regex.Split(description, @"\n+");
+                }
                 <div class="info-content">
-                    วันหยุดมาฆบูชานี้ ขึ้นรถไฟ <br>
-                    ไปขอพรหลวงพ่อรวย (วัดตะโก) อยุธยา<br>
-                    เพื่อเป็นสิริมงคล รวย รวย ปัง ปัง<br>
-                    <br>
-                    เชื่อว่าหากใครมีโอกาสมากราบไหว้หลวงพ่อรวย จะทำให้มีเงินทอง ทรัพย์สมบัติ มีกินมีใช้ ไม่อด ไม่อยาก
-                    ไม่ยากจนตลอดไป<br>
-                    <br>
-                    เรื่มเดินทางขึ้นรถไฟจาก<br>
-                    สถานีดอนเมือง-ชุมทางบ้านภาชี<br>
-                    แล้วต่อมอเตอร์ไซค์วิน<br>
-                    ใช้เวลาประมาณ 15 นาที มาที่วัดตะโก<br>
-                    <br>
-                    รายละเอียดการเดินทางดังนี้ครับ<br>
-                    <br>
-                    ขาไปขึ้นรถไฟ<br>
-                    (ดอนเมือง-ชุมทางบ้านภาชี)<br>
-                    ขบวน 71 ด่วน เวลา 10.52-11.46 น.<br>
-                    <br>
-                    ขากลับขึ้นรถไฟ<br>
-                    (ชุมทางบ้านภาชี-ดอนเมือง)<br>
-                    ขบวน 76 ด่วน เวลา 15.18-16.19 น.<br>
-                    <br>
-                    รถมอเตอร์ไซค์: 70 บาท/เที่ยว (ไปกลับ) ไปกลับประมาณ 140 บาท<br>
-                    <br>
-                    NOTE: นัดเจอกันที่สถาณีรถไฟดอนเมือง เวลา 10.20 น. ขึ้นรถไฟด้วยกัน
-                    หรือใครจะขึ้นจากสถาณีกรุงเทพอภิสัฒน์
-                    ให้เผื่อเวลาก่อนถึงสถาณีดอนเมือง 30 นาทีครับ เจอกันบนรถไฟได้ครับ<br>
-                    <br>
-                    ตั๋วรถไฟซื้อได้ที่สถานีก่อนรถไฟ ออก 2 ชม.ครับ<br>
-                    <br>
-                    หลังจากไหว้พระขอพระกันแล้ว<br>
-                    จะไปไหนต่อมาคุยกันอีกทีครับ<br>
-                    <br>
-                    ขากลับเราจะขึ้นรถไฟกลับ<br>
-                    ขบวน 76 รอบ 15.18-16.19 น.ครับ<br>
-                    <br>
-                    ใครสนใจกดจอยตี้มาได้เลยครับ
+                    @foreach (var info in infoArray)
+                    {
+                        <div style="color: #6c707a;">@info</div>
+                    }
                 </div>
             </div>
         </div>
-
-        <!------------------------------------ side --------------------------------------->
         <div class="side-container">
             <div class="chat-container">
-                <div class="chat-head">
-                    <div class="invite-head">Invitation will end in</div>
-                    <div class="invite-timer">3D : 22 : 34 : 27</div>
-                </div>
-                <div class="chat-messages">
 
-                </div>
-                <div class="chat-input">
-                    <input type="text" class="message-input" placeholder="Type your message...">
-                    <button class="send-button">Send</button>
-                </div>
-                
             </div>
-            <div class="invite-container">
-                <div class="invite-head">Invitation will end in</div>
-                <div class="invite-timer">3D : 22 : 34 : 27</div>
-                <button class="invite-btn">Touch</button>
-            </div>
-            <div class="owner-container">
-                <img class="owner-img" src="~/img/user-premier.png" alt="">
-                <div class="owner-content">
-                    <div class="owner-head">Activity Owner</div>
-                    <div class="owner-name">p_premier_r</div>
-                    <button class="owner-btn">view account</button>
+            <div class="responsive-flex">
+                <div class="invite-container">
+                    <div class="invite-head">Invitation will end in</div>
+                    <div class="invite-timer" id="@Model.Date"></div>
+                    <button class="invite-btn">Touch</button>
+                </div>
+                <div class="owner-container">
+                    <div class="wrap-owner">
+                        <img class="owner-img" src="@Model.Member[0].Users.Pic" alt="">
+                        <div class="owner-content">
+                            <div class="owner-head">Activity Owner</div>
+                            <div class="owner-name">@Model.Member[0].Users.Name</div>
+                            <button class="owner-btn">view account</button>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
             <div class="member-container">
+                <p class="monitor-title">Activity Member</p>
                 <div class="member-monitor">
-                    <p>Activity Member</p>
                     <div class="limit-content">
                         <p class="member-limit">Party Goup: </p>
-                        <div class="limit">8</div>
+                        <div class="limit">@Model.MaxMember</div>
                     </div>
-                    <div class="member-join">
+                    @* <div class="member-join">
                         <div class="join-main">
                             <div class="join">2</div>
                             <div class="require">6</div>
                         </div>
-                        <img src="~/img/add-outside.png" class="add-outside" style="display: none;">
-                        <img src="~/img/add-exta.png" class="add-extra" style="display: none;">
+                        <img src="~/img/add-outside.png" class="add-outside">
                         <div class="outside">2</div>
-                        <div class="extra">2</div>
-                    </div>
+                    </div> *@
                 </div>
                 <div class="member-display">
-                    <div class="member">
-                        <img src="~/img/user-guy.png">
-                        <div class="member-content">
-                            <p class="member-name">kidasadoi</p>
-                            <p class="member-status join">join</p>
+                    @foreach(var member in @Model.Member) {
+                        <div class="member">
+                            <img src=@member.Users.Pic>
+                            <div class="member-content">
+                                <p class="member-name">@member.Users.Name</p>
+                                <p class="member-status-join">@member.Status</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="member">
-                        <img src="~/img/user-oum.png">
-                        <div class="member-content">
-                            <p class="member-name">Kritta_sus</p>
-                            <p class="member-status join">join</p>
-                        </div>
-                    </div>
-                    <div class="member">
-                        <img src="~/img/user-captain.png">
-                        <div class="member-content">
-                            <p class="member-name">crap_tar_inz</p>
-                            <p class="member-status touch">just touch</p>
-                        </div>
-                    </div>
-                    <div class="member">
-                        <img src="~/img/user-frame.png">
-                        <div class="member-content">
-                            <p class="member-name">__bellingframe17</p>
-                            <p class="member-status touch">just touch</p>
-                        </div>
-                    </div>
+                    }
                 </div>
-            </div>  
+            </div>
         </div>
     </div>
-
-    <!-- <div class="touch-grass">
-        <img src="~/img/get-touch-grass.png">
-    </div> -->
-
-    <!------------------------- footer ------------------------------>
-    <!-- <div class="footer">
-        <div class="footer-content">
-            <p class="footer-name">TouchGrass</p>
-
-            <div class="footer-tool">
-                <p class="tool-title">TOOLS</p>
-                <ul class="bullet-content">
-                    <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>    
-                    <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
-                    <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
-                    <li><a href="https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-8.0">ASP.NET</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-resource">
-                <p class="resource-title">RESOURCES</p>
-                <ul class="bullet-content">
-                    <li><a href="https://www.w3schools.com/">W3schools</a></li>
-                    <li><a href="https://www.flaticon.com/">Flaticon</a></li>
-                    <li><a href="https://fonts.google.com/specimen/Itim">Itim font</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=hZ1DASYd9rk&t=213s">Indian Guy</a></li>
-                </ul>
-            </div>
-            
-            <div class="footer-contact">
-                <p class="contact-title">CONTACTS</p>
-                <ul class="bullet-content">
-                    <li><a href="mailto:touchgrass@gmail.com">touchgrass@gmail.com</a></li>
-                    <li>
-                        <div class="contact-icon">
-                            <a href="https://www.instagram.com/"><img src="~/icon/icon-instagram.png"></a>
-                            <a href="https://www.facebook.com/"><img src="~/icon/icon-facebook.png"></a>
-                            <a href="https://twitter.com/home"><img src="~/icon/icon-twitter.png"></a>
-                        </div>
-                    </li>
-                </ul> 
-            </div>
-        </div>
-
-        <div class="footer-copyright">
-            <p class="copyright">Copyright © 2024 | TouchGrass. All rights reserved.</p>
-        </div>
-    </div> -->
-
 </body>
-</html>
+
+<script src="~/js/activityScript.js"></script>
+<script src="~/js/timer.js"></script>

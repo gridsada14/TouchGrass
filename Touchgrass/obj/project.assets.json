@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
+      "projectUniqueName": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\Touchgrass.csproj",
       "projectName": "Touchgrass",
-      "projectPath": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
+      "projectPath": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\Touchgrass.csproj",
       "packagesPath": "C:\\Users\\Kidsadoi\\.nuget\\packages\\",
-      "outputPath": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\obj\\",
+      "outputPath": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kidsadoi\\AppData\\Roaming\\NuGet\\NuGet.Config"

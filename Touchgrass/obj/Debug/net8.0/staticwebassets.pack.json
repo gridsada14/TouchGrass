@@ -1,360 +1,280 @@
 {
   "Files": [
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Touchgrass.bundle.scp.css",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Touchgrass.bundle.scp.css",
       "PackagePath": "staticwebassets\\Touchgrass.bundle.scp.css"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\css\\activityStyle.css",
-      "PackagePath": "staticwebassets\\css\\activityStyle.css"
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\css\\ActStyle.css",
+      "PackagePath": "staticwebassets\\css\\ActStyle.css"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\css\\site.css",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\css\\setting.css",
+      "PackagePath": "staticwebassets\\css\\setting.css"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\favicon.ico",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\Sun-Ray-PNG-Image.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\Sun-Ray-PNG-Image.png",
       "PackagePath": "staticwebassets\\img\\Sun-Ray-PNG-Image.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\add-exta.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\add-exta.png",
       "PackagePath": "staticwebassets\\img\\add-exta.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\add-outside.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\add-outside.png",
       "PackagePath": "staticwebassets\\img\\add-outside.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\art.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\art.png",
       "PackagePath": "staticwebassets\\img\\art.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\board-game.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\board-game.png",
       "PackagePath": "staticwebassets\\img\\board-game.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\cafe.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\cafe.png",
       "PackagePath": "staticwebassets\\img\\cafe.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\get-touch-grass.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\get-touch-grass.png",
       "PackagePath": "staticwebassets\\img\\get-touch-grass.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\house.jpg",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\house.jpg",
       "PackagePath": "staticwebassets\\img\\house.jpg"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\icon-facebook.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\icon-facebook.png",
       "PackagePath": "staticwebassets\\img\\icon-facebook.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\icon-instagram.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\icon-instagram.png",
       "PackagePath": "staticwebassets\\img\\icon-instagram.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\icon-twitter.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\icon-twitter.png",
       "PackagePath": "staticwebassets\\img\\icon-twitter.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\jungle.jpg",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\jungle.jpg",
       "PackagePath": "staticwebassets\\img\\jungle.jpg"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\lake.jpg",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\lake.jpg",
       "PackagePath": "staticwebassets\\img\\lake.jpg"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\mountain.jpg",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\mountain.jpg",
       "PackagePath": "staticwebassets\\img\\mountain.jpg"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\panorama.jpg",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\panorama.jpg",
       "PackagePath": "staticwebassets\\img\\panorama.jpg"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\placeholder.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\placeholder.png",
       "PackagePath": "staticwebassets\\img\\placeholder.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\private.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\private.png",
       "PackagePath": "staticwebassets\\img\\private.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\public.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\public.png",
       "PackagePath": "staticwebassets\\img\\public.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\send.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\send.png",
       "PackagePath": "staticwebassets\\img\\send.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\time.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\time.png",
       "PackagePath": "staticwebassets\\img\\time.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\touch-grass-logo.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\touch-grass-logo.png",
       "PackagePath": "staticwebassets\\img\\touch-grass-logo.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\user-captain.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\user-captain.png",
       "PackagePath": "staticwebassets\\img\\user-captain.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\user-frame.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\user-frame.png",
       "PackagePath": "staticwebassets\\img\\user-frame.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\user-guy.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\user-guy.png",
       "PackagePath": "staticwebassets\\img\\user-guy.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\user-oum.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\user-oum.png",
       "PackagePath": "staticwebassets\\img\\user-oum.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\user-premier.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\user-premier.png",
       "PackagePath": "staticwebassets\\img\\user-premier.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\waterfall.png",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\waterfall.png",
       "PackagePath": "staticwebassets\\img\\waterfall.png"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\js\\site.js",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\js\\Index.js",
+      "PackagePath": "staticwebassets\\js\\Index.js"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\js\\activityScript.js",
+      "PackagePath": "staticwebassets\\js\\activityScript.js"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\js\\setting.js",
+      "PackagePath": "staticwebassets\\js\\setting.js"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\js\\timer.js",
+      "PackagePath": "staticwebassets\\js\\timer.js"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
-    },
-    {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\bell.png",
+      "PackagePath": "staticwebassets\\pic\\bell.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\create.png",
+      "PackagePath": "staticwebassets\\pic\\create.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\filter.png",
+      "PackagePath": "staticwebassets\\pic\\filter.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\search.png",
+      "PackagePath": "staticwebassets\\pic\\search.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\settings.png",
+      "PackagePath": "staticwebassets\\pic\\settings.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\square.png",
+      "PackagePath": "staticwebassets\\pic\\square.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\touch-grass-logo.png",
+      "PackagePath": "staticwebassets\\pic\\touch-grass-logo.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user.png",
+      "PackagePath": "staticwebassets\\pic\\user.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\00a36c7a-7f39-4d8d-9bf9-4215de5fe2b4_Screenshot 2024-03-02 173152.png",
+      "PackagePath": "staticwebassets\\pic\\user\\00a36c7a-7f39-4d8d-9bf9-4215de5fe2b4_Screenshot 2024-03-02 173152.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\1e21a146-c785-41ee-8790-4c9bd53bc261_the-creation-adam.png",
+      "PackagePath": "staticwebassets\\pic\\user\\1e21a146-c785-41ee-8790-4c9bd53bc261_the-creation-adam.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\22d6fcf7-ad27-432b-9f04-da9655025eb5_channels4_profile.jpg",
+      "PackagePath": "staticwebassets\\pic\\user\\22d6fcf7-ad27-432b-9f04-da9655025eb5_channels4_profile.jpg"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\3a5cfaee-1af2-470e-bc00-6ebfbc0abb83_me-when-i-see-a-spider-and-im-holding-a-crossing-sign-v0-boadbriii62c1.png",
+      "PackagePath": "staticwebassets\\pic\\user\\3a5cfaee-1af2-470e-bc00-6ebfbc0abb83_me-when-i-see-a-spider-and-im-holding-a-crossing-sign-v0-boadbriii62c1.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\531784f6-e1a3-4a1c-bc77-4ac6fa1e8ad3_add.png",
+      "PackagePath": "staticwebassets\\pic\\user\\531784f6-e1a3-4a1c-bc77-4ac6fa1e8ad3_add.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\aac68447-ad4d-4581-8729-ef48e0ace4a6_Sun-Ray-PNG-Image.png",
+      "PackagePath": "staticwebassets\\pic\\user\\aac68447-ad4d-4581-8729-ef48e0ace4a6_Sun-Ray-PNG-Image.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\bd01e774-0bd9-4ebc-9a88-6a0612e30708_god-touch-grass-1.png",
+      "PackagePath": "staticwebassets\\pic\\user\\bd01e774-0bd9-4ebc-9a88-6a0612e30708_god-touch-grass-1.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\bec33765-beea-434b-9e36-90834dfdaba1_cube.png",
+      "PackagePath": "staticwebassets\\pic\\user\\bec33765-beea-434b-9e36-90834dfdaba1_cube.png"
+    },
+    {
+      "Id": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\f25964ed-f269-49df-b466-00beca1018af_oum.png",
+      "PackagePath": "staticwebassets\\pic\\user\\f25964ed-f269-49df-b466-00beca1018af_oum.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Touchgrass.Microsoft.AspNetCore.StaticWebAssets.props",

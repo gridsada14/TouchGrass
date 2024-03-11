@@ -2,7 +2,79 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<header>
+    <link rel="stylesheet" href="~/css/Index.css">
+    <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</header>
+<body>
+<div class="allcontent">
+    @foreach (var item in Model) {
+        <div class="act-block" type="button" onclick="event.stopPropagation();viewActivity(this);" id="@item.Ids">
+            <div class="left-side">
+                <div class="tag-display" id="tag-display">
+                    @if (item.Tag.Count>3) {
+                        for (int i = 0; i < 3; i++) {
+                            <div class="tag-item" id="@item.Ids">
+                                <p>@item.Tag[i]</p>
+                            </div>
+                        }
+                        <div class="tag-plus">
+                            <p>+@{var plusAmount = item.Tag.Count-3; @plusAmount}</p>
+                        </div>
+                    }
+                    else {
+                        @foreach (var tags in item.Tag) {
+                            <div class="tag-item" id="@item.Ids">
+                                <p>@tags</p>
+                            </div>
+                        }
+                    }
+                </div>
+                <div class="act-title">@item.Title</div>
+                <img class="img-display" src="@item.Img[0]"></img>
+            </div>
+            <div class="right-side">
+                <div class="member-block">
+                    <img class="host-crown" src="https://cdn-icons-png.flaticon.com/128/6941/6941697.png"></img>
+                    @if (item.Member.Count>5) {
+                        for (int i =0; i<5; i++) {
+                            <img class="member-img" src="@item.Member[i].Users.Pic">
+                        }
+                        <div class="member-plus">
+                            <h2 class="overlay-member-text">+@{var plusAmount = item.Member.Count-5; @plusAmount}</h2>
+                        </div>
+                    }
+                    else {
+                        @foreach (var member in item.Member) {
+                            <img class="member-img" src="@member.Users.Pic">
+                        }
+                    }
+                </div>
+                <div class="description">
+                    <p class="size">Party size : @item.MaxMember</p>
+                    <p class="date">Date : @item.Date</p>
+                    <p class="place">Place : @item.Place</p>
+                    <p class="expire">Availiable Until : @item.ExpireDate</p>
+                    <p class="desc">Description : @item.Description</p>
+                    
+                </div>
+                @if (item.MaxMember<=item.Member.Count) {
+                    <button class="button-block-full" type="button" onclick="event.stopPropagation();">
+                        <h1 class="full-button">FULL</h1>
+                    </button>
+                }
+                else {
+                    <button class="button-block" type="button" onclick="event.stopPropagation(); joinGroup();">
+                        <h1 class="join-button">JOIN</h1>
+                    </button>
+                }
+            </div>
+        </div>
+    }
 </div>
+<script src="~/js/Index.js">
+</script>
+
+    
+</body>
