@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\Touchgrass.csproj": {}
+    "D:\\work\\WebApp\\TouchGrass-1\\Touchgrass\\Touchgrass.csproj": {}
   },
   "projects": {
-    "c:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\Touchgrass.csproj": {
+    "D:\\work\\WebApp\\TouchGrass-1\\Touchgrass\\Touchgrass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
+        "projectUniqueName": "D:\\work\\WebApp\\TouchGrass-1\\Touchgrass\\Touchgrass.csproj",
         "projectName": "Touchgrass",
-        "projectPath": "c:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
-        "packagesPath": "C:\\Users\\oumro\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\obj\\",
+        "projectPath": "D:\\work\\WebApp\\TouchGrass-1\\Touchgrass\\Touchgrass.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\WebApp\\TouchGrass-1\\Touchgrass\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\oumro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
