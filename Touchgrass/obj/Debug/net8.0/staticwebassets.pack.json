@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Touchgrass.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\css\\ActStyle.css",
+      "PackagePath": "staticwebassets\\css\\ActStyle.css"
+    },
+    {
       "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\css\\Index.css",
       "PackagePath": "staticwebassets\\css\\Index.css"
     },
@@ -13,16 +17,20 @@
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
-      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\css\\Profileh.css",
-      "PackagePath": "staticwebassets\\css\\Profileh.css"
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\css\\Profile.css",
+      "PackagePath": "staticwebassets\\css\\Profile.css"
     },
     {
       "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\css\\Register.css",
       "PackagePath": "staticwebassets\\css\\Register.css"
     },
     {
-      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\css\\profile.css",
-      "PackagePath": "staticwebassets\\css\\profile.css"
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\css\\create_activity.css",
+      "PackagePath": "staticwebassets\\css\\create_activity.css"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\css\\profilejkl.css",
+      "PackagePath": "staticwebassets\\css\\profilejkl.css"
     },
     {
       "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\css\\setting.css",
@@ -37,8 +45,124 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\Sun-Ray-PNG-Image.png",
+      "PackagePath": "staticwebassets\\img\\Sun-Ray-PNG-Image.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\add-exta.png",
+      "PackagePath": "staticwebassets\\img\\add-exta.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\add-outside.png",
+      "PackagePath": "staticwebassets\\img\\add-outside.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\art.png",
+      "PackagePath": "staticwebassets\\img\\art.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\board-game.png",
+      "PackagePath": "staticwebassets\\img\\board-game.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\cafe.png",
+      "PackagePath": "staticwebassets\\img\\cafe.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\get-touch-grass.png",
+      "PackagePath": "staticwebassets\\img\\get-touch-grass.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\house.jpg",
+      "PackagePath": "staticwebassets\\img\\house.jpg"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\icon-facebook.png",
+      "PackagePath": "staticwebassets\\img\\icon-facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\icon-instagram.png",
+      "PackagePath": "staticwebassets\\img\\icon-instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\icon-twitter.png",
+      "PackagePath": "staticwebassets\\img\\icon-twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\jungle.jpg",
+      "PackagePath": "staticwebassets\\img\\jungle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\lake.jpg",
+      "PackagePath": "staticwebassets\\img\\lake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\mountain.jpg",
+      "PackagePath": "staticwebassets\\img\\mountain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\panorama.jpg",
+      "PackagePath": "staticwebassets\\img\\panorama.jpg"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\placeholder.png",
+      "PackagePath": "staticwebassets\\img\\placeholder.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\private.png",
+      "PackagePath": "staticwebassets\\img\\private.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\public.png",
+      "PackagePath": "staticwebassets\\img\\public.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\send.png",
+      "PackagePath": "staticwebassets\\img\\send.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\time.png",
+      "PackagePath": "staticwebassets\\img\\time.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\touch-grass-logo.png",
+      "PackagePath": "staticwebassets\\img\\touch-grass-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\user-captain.png",
+      "PackagePath": "staticwebassets\\img\\user-captain.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\user-frame.png",
+      "PackagePath": "staticwebassets\\img\\user-frame.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\user-guy.png",
+      "PackagePath": "staticwebassets\\img\\user-guy.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\user-oum.png",
+      "PackagePath": "staticwebassets\\img\\user-oum.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\user-premier.png",
+      "PackagePath": "staticwebassets\\img\\user-premier.png"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\img\\waterfall.png",
+      "PackagePath": "staticwebassets\\img\\waterfall.png"
+    },
+    {
       "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\js\\Index.js",
       "PackagePath": "staticwebassets\\js\\Index.js"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\js\\activityScript.js",
+      "PackagePath": "staticwebassets\\js\\activityScript.js"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\js\\create_activity.js",
+      "PackagePath": "staticwebassets\\js\\create_activity.js"
     },
     {
       "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\js\\profile.js",
@@ -51,6 +175,10 @@
     {
       "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\js\\timer.js",
+      "PackagePath": "staticwebassets\\js\\timer.js"
     },
     {
       "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

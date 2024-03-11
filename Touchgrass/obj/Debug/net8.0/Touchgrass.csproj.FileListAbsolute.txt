@@ -31,3 +31,6 @@ c:\Users\oumro\OneDrive\Documents\Web_dev\TouchGrass\Touchgrass\obj\Debug\net8.0
 c:\Users\oumro\OneDrive\Documents\Web_dev\TouchGrass\Touchgrass\obj\Debug\net8.0\ref\Touchgrass.dll
 C:\Users\oumro\OneDrive\Documents\Web_dev\TouchGrass\Touchgrass\bin\Debug\net8.0\Database\Activity.json
 C:\Users\oumro\OneDrive\Documents\Web_dev\TouchGrass\Touchgrass\bin\Debug\net8.0\Database\User.json
+C:\Users\oumro\OneDrive\Documents\Web_dev\TouchGrass\Touchgrass\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\oumro\OneDrive\Documents\Web_dev\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.csproj.AssemblyReference.cache
+C:\Users\oumro\OneDrive\Documents\Web_dev\TouchGrass\Touchgrass\obj\Debug\net8.0\Touchgrass.csproj.Up2Date

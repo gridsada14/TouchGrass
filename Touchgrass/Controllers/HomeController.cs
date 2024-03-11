@@ -1,20 +1,18 @@
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Touchgrass.Models;
 using System.Text.Json;
-using System;
-using System.IO;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
+
+
+
 
 namespace Touchgrass.Controllers;
 [Authorize]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+
     
     public HomeController(ILogger<HomeController> logger)
     {
@@ -66,7 +64,13 @@ public class HomeController : Controller
         return View(act);
     }
 
-    // public IActionResult Join
+    public IActionResult Act(int Id)
+    {
+        var actjson = System.IO.File.ReadAllText("./Database/Activity.json");
+        var acts = JsonSerializer.Deserialize<List<ActivityModel>>(actjson);
+        var act = acts.FirstOrDefault(a=> a.Ids == Id);
+        return View(act);
+    }
 
     public IActionResult Setting()
     {
@@ -87,4 +91,11 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
+    public IActionResult CreateActivity()
+    {
+        return View();
+    }
+
+
 }

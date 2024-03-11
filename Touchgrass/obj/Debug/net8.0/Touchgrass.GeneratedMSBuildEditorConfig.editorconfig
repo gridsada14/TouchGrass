@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\oumro\OneDrive\Documents\Web_dev\TouchGrass\Touchgrass
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/oumro/OneDrive/Documents/Web_dev/TouchGrass/Touchgrass/Views/Home/Act.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oumro/OneDrive/Documents/Web_dev/TouchGrass/Touchgrass/Views/Home/CreateActivity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVBY3Rpdml0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/oumro/OneDrive/Documents/Web_dev/TouchGrass/Touchgrass/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,5 +1,4 @@
-﻿@model IEnumerable<Touchgrass.Models.ActivityModel>
-@{
+﻿@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -11,7 +10,7 @@
 <body>
 <div class="allcontent">
     @foreach (var item in Model) {
-        <div class="act-block" type="button" onclick="event.stopPropagation();viewActivity(this);">
+        <div class="act-block" type="button" onclick="event.stopPropagation();viewActivity(this);" id="@item.Ids">
             <div class="left-side">
                 <div class="tag-display" id="tag-display">
                     @if (item.Tag.Count>3) {
@@ -40,7 +39,7 @@
                     <img class="host-crown" src="https://cdn-icons-png.flaticon.com/128/6941/6941697.png"></img>
                     @if (item.Member.Count>5) {
                         for (int i =0; i<5; i++) {
-                            <img class="member-img" src="@item.Member[i].Pic">
+                            <img class="member-img" src="@item.Member[i].Users.Pic">
                         }
                         <div class="member-plus">
                             <h2 class="overlay-member-text">+@{var plusAmount = item.Member.Count-5; @plusAmount}</h2>
@@ -48,7 +47,7 @@
                     }
                     else {
                         @foreach (var member in item.Member) {
-                            <img class="member-img" src="@member.Pic">
+                            <img class="member-img" src="@member.Users.Pic">
                         }
                     }
                 </div>

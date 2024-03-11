@@ -76,6 +76,22 @@ function joinGroup() {
     window.alert('You Requested to join this group');
 }
 
-function viewActivity() {
-    window.alert('You clicked on ACT block');
+function viewActivity(clickedElement) {
+    var id = clickedElement.getAttribute("id");
+    console.log(id);
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("GET", "/Home/Act?id=" + encodeURIComponent(id), true);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                window.location.href = "/Home/Act?id=" + encodeURIComponent(id);
+            } else {
+                console.log("fail");
+            }
+        }
+    };
+    xhr.send();
+
+    console.log("running")
 }

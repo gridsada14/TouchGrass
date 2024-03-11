@@ -112,7 +112,7 @@
         </div>
         <a class="expand-user" onclick="toggleUserContainer()"><img src="~/pic/square.png"></a>
         <div class="user-container">
-          <a class="user-ele" id="create"><img src="~/pic/create.png"><p class="ele-txt">Create</p></a>
+          <a class="user-ele" id="create" asp-area="" asp-controller="Home" asp-action="CreateActivity"><img src="~/pic/create.png"><p class="ele-txt">Create</p></a>
           <a class="user-ele" id="notification" onclick="HSbyClass('.noti-tab',event);">
             <img src="~/pic/bell.png">
             <p class="ele-txt">Notification</p>

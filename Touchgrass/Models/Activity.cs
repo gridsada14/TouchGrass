@@ -4,8 +4,8 @@ namespace Touchgrass.Models
     {
         public string? Title { get; set; }
         public int MaxMember { get; set; }
-        public List<User>? Member { get; set; }
-        public User? Host { get; set; }
+        public List<Member>? Member { get; set; }
+        public Member? Host { get; set; }
         public int Ids { get; set; }
         
         public string? Description { get; set; }

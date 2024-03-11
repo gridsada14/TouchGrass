@@ -1,0 +1,138 @@
+@{
+    List<string> restaurantTag = new List<string> {
+"🍜 noodle",
+"🥗 salad",
+"🥓 muu kra ta",
+"🍔 hamburgur",
+"🥩 steak",
+"🍝 pasta",
+"🍕 pizza",
+"🍣 sushi",
+"🍛 curry",
+"☕ café",
+"🍨 ice cream",
+"🍰 cake",
+"🍻 alcohal",
+"🍹 bar",
+"🌃 rooftop",
+"🎵 live music",
+};
+
+    List<string> sportTag = new List<string> {
+"⚽ football",
+"⚾ baseball",
+"🏀 basketball",
+"⛳ golf",
+"🎾 tennis",
+"🏐 volleyball",
+"🏸 badminton",
+"🥊 boxing",
+"🏓 table tennis",
+"🎱 snooker",
+};
+
+    List<string> activityTag = new List<string> {
+"🚶 walking",
+"💻 video game",
+"🎲 boardgame",
+"🎬 movie",
+"🗺️ trip",
+"🏔️ mountain",
+"🏖️ beach",
+"🎸 concert",
+"🥁 music",
+"📖 reading",
+"🎨 art",
+"🎊 party",
+};
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/aecb1a01a7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/create_activity.css">
+    <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>
+    <script src="~/js/create_activity.js"></script>
+</head>
+
+<body>
+    <main class="main">
+        <div style="position: relative;">
+            <form method="post" asp-area="" asp-controller="CreateActivity" asp-action="CreateActivity" enctype="multipart/form-data">
+                <h1 class="header">Create Activity</h1>
+
+                <label for="nameact">
+                    <input type="text" name="Title" id="nameact" placeholder="Enter activity name" required>
+                </label>
+
+                <label for="images">
+                    <div style="position: relative; width:100%;height:100%; background:none;">
+                        <input type="file" name="Images" accept="image/*" id="images" onchange="getImg(event)" multiple>
+                        <div class="images-container"></div>
+                    </div>
+                </label>
+
+                <label for="addresss">
+                    <textarea id="addresss" title='address' onclick=openSearchAddress() rows="3"
+                        placeholder="Enter the address" required name="Address"></textarea>
+                </label>
+
+                <label for="date">
+                    <input type="datetime-local" name="DateTime" id="date" required format="HH:mm:ss dd-MM-yyyy">
+                </label>
+
+                <div class='nump'>
+                    <label for="nop">
+                        <div class="max">max</div>
+                        <input type="number" name="MaxPeople" id="nop" min="2" value="2" required>
+                        <p class="max">people</p>
+                    </label>
+                </div>
+
+                <label for="descrip">
+                    <textarea name="Description" id="descrip" rows="5" placeholder="Enter your description"></textarea>
+                </label>
+
+                <div class="tag" id="showTag">
+                    <input type="checkbox" style="display: none;" name="Tags">
+                    <i class="fa-solid fa-plus addTag" onclick="getTag()"></i>
+                </div>
+
+                <button type="reset" class="formbutton" onclick="getImg('reset')">reset</button>
+                <button type="submit" class="formbutton">create</button>
+            </form>
+
+            <div id="viewTag">
+                <div class="tagSet">
+                    <button class="done" onclick="closeTag()">done</button>
+                    <div class="inTag">
+                        @foreach (var tag in restaurantTag)
+                        {
+                            <input type="checkbox" id="@tag" name="tags" class='check' value='@tag'>
+                            <label for="@tag" class='checkstr'>@tag</label>
+                        }
+                        @foreach (var tag in sportTag)
+                        {
+                            <input type="checkbox" id="@tag" name="tags" class='check' value='@tag'>
+                            <label for="@tag" class='checkstr'>@tag</label>
+                        }
+                        @foreach (var tag in activityTag)
+                        {
+                            <input type="checkbox" id="@tag" name="tags" class='check' value='@tag'>
+                            <label for="@tag" class='checkstr'>@tag</label>
+                        }
+                        <i class="fa-solid fa-plus checkstr" style="color:#fcfffc" onclick="getNewTag(this)"
+                            aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html
