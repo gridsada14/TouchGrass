@@ -35,9 +35,8 @@ public class HomeController : Controller
 
         var actjson = System.IO.File.ReadAllText("./Database/Activity.json");
         var act = JsonSerializer.Deserialize<List<ActivityModel>>(actjson);
-
         
-        if (tag != null){
+        if (tag.Count != 0){
             var tagFiltered = act.FindAll(ex => ex.Tag.Any(x => tag.Any(y => y == x)));
             act = tagFiltered;
         }
@@ -64,7 +63,6 @@ public class HomeController : Controller
             act = searchFiltered;
         }
         
-
         return View(act);
     }
 

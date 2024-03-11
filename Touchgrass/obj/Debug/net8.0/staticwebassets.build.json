@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BzwuCMkAGyPUbRiPFO9jdfUxfEvr4OE8inozRQD4rco=",
+  "Hash": "zRbn180bpfxhlFJKHes7DXA2J2fdjPhPSFwKEgIzqNQ=",
   "Source": "Touchgrass",
   "BasePath": "_content/Touchgrass",
   "Mode": "Default",
@@ -661,6 +661,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pic\\user\\3a5cfaee-1af2-470e-bc00-6ebfbc0abb83_me-when-i-see-a-spider-and-im-holding-a-crossing-sign-v0-boadbriii62c1.png"
+    },
+    {
+      "Identity": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\pic\\user\\user.png",
+      "SourceId": "Touchgrass",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\",
+      "BasePath": "_content/Touchgrass",
+      "RelativePath": "pic/user/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pic\\user\\user.png"
     }
   ]
 }

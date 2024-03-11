@@ -36,8 +36,13 @@ public class LoginController : Controller
         if (username != null && password != null && user != null)
         {
             _session.SetString("Name",user.Name);
-            _session.SetString("Pic",user.Pic);
-            if (user.Bio != null) {
+            if (user.Pic != "") {
+                _session.SetString("Pic",user.Pic);
+            }
+            else{
+                _session.SetString("Pic","/pic/user/user.png");
+            }
+            if (user.Bio != "") {
                 _session.SetString("Bio",user.Bio);
             }
             else{

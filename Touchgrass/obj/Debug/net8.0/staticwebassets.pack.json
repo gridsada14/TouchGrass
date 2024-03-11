@@ -133,6 +133,10 @@
       "PackagePath": "staticwebassets\\pic\\user\\3a5cfaee-1af2-470e-bc00-6ebfbc0abb83_me-when-i-see-a-spider-and-im-holding-a-crossing-sign-v0-boadbriii62c1.png"
     },
     {
+      "Id": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\wwwroot\\pic\\user\\user.png",
+      "PackagePath": "staticwebassets\\pic\\user\\user.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Touchgrass.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
