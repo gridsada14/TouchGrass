@@ -108,14 +108,20 @@
             </div>
         </div>
         <div class="side-container">
-            <div class="chat-container">
-
-            </div>
             <div class="responsive-flex">
                 <div class="invite-container">
                     <div class="invite-head">Invitation will end in</div>
                     <div class="invite-timer" id="@Model.Date"></div>
-                    <button class="invite-btn">Touch</button>
+                    @{var check = 0;}
+                    @foreach (var mb in @Model.Member){
+                        @if (mb.Users.Name == @Context.Session.GetString("Name")){
+                            check = 1;
+                            <button class="invite-btn" type="button" id="@Model.Ids">Joined</button>
+                        }
+                    }
+                    @if (check == 0) {
+                        <button class="invite-btn" type="button" onclick="event.stopPropagation();joinAct(this);" id="@Model.Ids">Join</button>
+                    }
                 </div>
                 <div class="owner-container">
                     <div class="wrap-owner">
@@ -123,7 +129,7 @@
                         <div class="owner-content">
                             <div class="owner-head">Activity Owner</div>
                             <div class="owner-name">@Model.Member[0].Users.Name</div>
-                            <button class="owner-btn">view account</button>
+                            @* <button class="owner-btn">view account</button> *@
                         </div>
                     </div>
                 </div>
@@ -134,6 +140,8 @@
                 <div class="member-monitor">
                     <div class="limit-content">
                         <p class="member-limit">Party Goup: </p>
+                        <div class="group-now">5</div>
+                        <div class="slash">/</div>
                         <div class="limit">@Model.MaxMember</div>
                     </div>
                     @* <div class="member-join">
@@ -148,10 +156,24 @@
                 <div class="member-display">
                     @foreach(var member in @Model.Member) {
                         <div class="member">
-                            <img src=@member.Users.Pic>
-                            <div class="member-content">
-                                <p class="member-name">@member.Users.Name</p>
-                                <p class="member-status-join">@member.Status</p>
+                            <div class="member-info">
+                                <img src=@member.Users.Pic>
+                                <div class="member-content">
+                                    <p class="member-name">@member.Users.Name</p>
+                                    <p class="member-status-join">@member.Status</p>
+                                </div>
+                            </div>
+                            <div class="member-action">
+                                @if (Context.Session.GetString("Name") == @Model.Host.Users.Name && @Model.Host.Users.Name != member.Users.Name)  {
+                                    if (member.Status != "Host") {
+                                        if (member.Status == "Pending") {
+                                            <button class="accept-btn" id="@member.Users.Ids" onclick="acceptMember(this)">Accept</button>
+                                            <button class="kick-btn" id="@member.Users.Ids" onclick="kickMember(this)">Kick</button>
+                                        } else if (member.Status == "Joined") {
+                                            <button class="kick-btn" id="@member.Users.Ids" onclick="kickMember(this)">Kick</button>
+                                        }
+                                    } 
+                                }
                             </div>
                         </div>
                     }
@@ -163,3 +185,4 @@
 
 <script src="~/js/activityScript.js"></script>
 <script src="~/js/timer.js"></script>
+<script src="~/js/statusColor.js"></script>

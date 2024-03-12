@@ -71,6 +71,31 @@ public class SettingController : Controller
         }
     }
 
+public IActionResult Bio(string bio)
+    {
+        var usrjson = System.IO.File.ReadAllText("./Database/User.json");
+        var users = JsonSerializer.Deserialize<List<User>>(usrjson);
+        var userToUpdate = users.Find(user => user.Name == HttpContext.Session.GetString("Name"));  
+        if (bio != null)
+        {
+            HttpContext.Session.SetString("Bio", bio);
+        }
+
+        else{
+            HttpContext.Session.SetString("Bio", "");
+        }
+
+        userToUpdate.Bio = bio; 
+
+        var updatedJson = JsonSerializer.Serialize(users);
+
+  
+        System.IO.File.WriteAllText("./Database/User.json", updatedJson);
+
+        return RedirectToAction("Setting","Home");
+
+    }
+
     [HttpPost]
     public IActionResult Password(string old_password, string new_password)
     {

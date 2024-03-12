@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bkLv21P998vkyySt8EMCGnVAZ6KG01grVV0Ryrrn2vJIBGuH3kBdIgLkl4c6zkjp2cZiOob2Zx+Gv8uH5JFtkA==",
+  "dgSpecHash": "yU1ay/1OoenSKOMIzJ5KAiUnI009mg0GNbke6KTleHvso/uMp9pnPZLLiy96zEQoWWtMYZm4q6j0FbnrxI4NfQ==",
   "success": true,
-  "projectFilePath": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\Touchgrass.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\Touchgrass.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kidsadoi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

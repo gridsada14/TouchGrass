@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Aqo1vUz4x/S/w+rbamD409sFuSSgbR3MyQvFWoZLEQk=",
+  "Hash": "zAZgLdZT4Wp7+HFKpXZJzvYJz5uqBv4vezofXFo5938=",
   "Source": "Touchgrass",
   "BasePath": "_content/Touchgrass",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Touchgrass\\wwwroot",
       "Source": "Touchgrass",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Touchgrass.styles.css",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Touchgrass.styles.css",
       "SourceId": "Touchgrass",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "Touchgrass.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Touchgrass.styles.css"
+      "OriginalItemSpec": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Touchgrass.styles.css"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Touchgrass.bundle.scp.css",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Touchgrass.bundle.scp.css",
       "SourceId": "Touchgrass",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "Touchgrass.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Touchgrass.bundle.scp.css"
+      "OriginalItemSpec": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Touchgrass.bundle.scp.css"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\css\\ActStyle.css",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\css\\ActStyle.css",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "css/ActStyle.css",
       "AssetKind": "All",
@@ -74,10 +74,29 @@
       "OriginalItemSpec": "wwwroot\\css\\ActStyle.css"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\css\\Index.css",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\css\\create_activity.css",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
+      "BasePath": "_content/Touchgrass",
+      "RelativePath": "css/create_activity.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\create_activity.css"
+    },
+    {
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\css\\Index.css",
+      "SourceId": "Touchgrass",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "css/Index.css",
       "AssetKind": "All",
@@ -93,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Index.css"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\css\\Login.css",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\css\\Login.css",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "css/Login.css",
       "AssetKind": "All",
@@ -112,10 +131,29 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\css\\Register.css",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\css\\Profile.css",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
+      "BasePath": "_content/Touchgrass",
+      "RelativePath": "css/Profile.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Profile.css"
+    },
+    {
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\css\\Register.css",
+      "SourceId": "Touchgrass",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "css/Register.css",
       "AssetKind": "All",
@@ -131,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Register.css"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\css\\setting.css",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\css\\setting.css",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "css/setting.css",
       "AssetKind": "All",
@@ -150,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\setting.css"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\css\\site.css",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\css\\site.css",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -169,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\favicon.ico",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\favicon.ico",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -188,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\add-exta.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\add-exta.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/add-exta.png",
       "AssetKind": "All",
@@ -207,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\img\\add-exta.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\add-outside.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\add-outside.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/add-outside.png",
       "AssetKind": "All",
@@ -226,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\img\\add-outside.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\art.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\art.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/art.png",
       "AssetKind": "All",
@@ -245,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\img\\art.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\board-game.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\board-game.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/board-game.png",
       "AssetKind": "All",
@@ -264,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\img\\board-game.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\cafe.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\cafe.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/cafe.png",
       "AssetKind": "All",
@@ -283,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cafe.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\get-touch-grass.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\get-touch-grass.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/get-touch-grass.png",
       "AssetKind": "All",
@@ -302,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\get-touch-grass.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\house.jpg",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\house.jpg",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/house.jpg",
       "AssetKind": "All",
@@ -321,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\img\\house.jpg"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\icon-facebook.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\icon-facebook.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/icon-facebook.png",
       "AssetKind": "All",
@@ -340,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon-facebook.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\icon-instagram.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\icon-instagram.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/icon-instagram.png",
       "AssetKind": "All",
@@ -359,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon-instagram.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\icon-twitter.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\icon-twitter.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/icon-twitter.png",
       "AssetKind": "All",
@@ -378,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon-twitter.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\jungle.jpg",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\jungle.jpg",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/jungle.jpg",
       "AssetKind": "All",
@@ -397,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\img\\jungle.jpg"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\lake.jpg",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\lake.jpg",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/lake.jpg",
       "AssetKind": "All",
@@ -416,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\img\\lake.jpg"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\mountain.jpg",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\mountain.jpg",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/mountain.jpg",
       "AssetKind": "All",
@@ -435,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\img\\mountain.jpg"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\panorama.jpg",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\panorama.jpg",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/panorama.jpg",
       "AssetKind": "All",
@@ -454,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\img\\panorama.jpg"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\placeholder.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\placeholder.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/placeholder.png",
       "AssetKind": "All",
@@ -473,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\img\\placeholder.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\private.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\private.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/private.png",
       "AssetKind": "All",
@@ -492,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\img\\private.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\public.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\public.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/public.png",
       "AssetKind": "All",
@@ -511,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\img\\public.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\send.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\send.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/send.png",
       "AssetKind": "All",
@@ -530,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\img\\send.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\Sun-Ray-PNG-Image.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\Sun-Ray-PNG-Image.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/Sun-Ray-PNG-Image.png",
       "AssetKind": "All",
@@ -549,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Sun-Ray-PNG-Image.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\time.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\time.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/time.png",
       "AssetKind": "All",
@@ -568,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\img\\time.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\touch-grass-logo.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\touch-grass-logo.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/touch-grass-logo.png",
       "AssetKind": "All",
@@ -587,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\img\\touch-grass-logo.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\user-captain.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\user-captain.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/user-captain.png",
       "AssetKind": "All",
@@ -606,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\img\\user-captain.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\user-frame.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\user-frame.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/user-frame.png",
       "AssetKind": "All",
@@ -625,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\user-frame.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\user-guy.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\user-guy.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/user-guy.png",
       "AssetKind": "All",
@@ -644,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\img\\user-guy.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\user-oum.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\user-oum.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/user-oum.png",
       "AssetKind": "All",
@@ -663,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\img\\user-oum.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\user-premier.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\user-premier.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/user-premier.png",
       "AssetKind": "All",
@@ -682,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\img\\user-premier.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\img\\waterfall.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\img\\waterfall.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "img/waterfall.png",
       "AssetKind": "All",
@@ -701,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\img\\waterfall.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\js\\activityScript.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\js\\activityScript.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "js/activityScript.js",
       "AssetKind": "All",
@@ -720,10 +758,29 @@
       "OriginalItemSpec": "wwwroot\\js\\activityScript.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\js\\Index.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\js\\create_activity.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
+      "BasePath": "_content/Touchgrass",
+      "RelativePath": "js/create_activity.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\create_activity.js"
+    },
+    {
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\js\\Index.js",
+      "SourceId": "Touchgrass",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "js/Index.js",
       "AssetKind": "All",
@@ -739,10 +796,29 @@
       "OriginalItemSpec": "wwwroot\\js\\Index.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\js\\setting.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\js\\profile.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
+      "BasePath": "_content/Touchgrass",
+      "RelativePath": "js/profile.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\profile.js"
+    },
+    {
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\js\\setting.js",
+      "SourceId": "Touchgrass",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "js/setting.js",
       "AssetKind": "All",
@@ -758,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\js\\setting.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\js\\site.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\js\\site.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -777,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\js\\timer.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\js\\timer.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "js/timer.js",
       "AssetKind": "All",
@@ -796,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\js\\timer.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -815,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -834,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -853,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -872,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -891,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -910,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -929,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -948,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -967,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -986,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1005,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1024,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\bell.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\bell.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "pic/bell.png",
       "AssetKind": "All",
@@ -1043,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\pic\\bell.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\create.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\create.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "pic/create.png",
       "AssetKind": "All",
@@ -1062,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\pic\\create.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\filter.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\filter.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "pic/filter.png",
       "AssetKind": "All",
@@ -1081,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\pic\\filter.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\search.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\search.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "pic/search.png",
       "AssetKind": "All",
@@ -1100,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\pic\\search.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\settings.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\settings.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "pic/settings.png",
       "AssetKind": "All",
@@ -1119,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\pic\\settings.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\square.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\square.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "pic/square.png",
       "AssetKind": "All",
@@ -1138,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\pic\\square.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\touch-grass-logo.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\touch-grass-logo.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "pic/touch-grass-logo.png",
       "AssetKind": "All",
@@ -1157,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\pic\\touch-grass-logo.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\00a36c7a-7f39-4d8d-9bf9-4215de5fe2b4_Screenshot 2024-03-02 173152.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\user\\00a36c7a-7f39-4d8d-9bf9-4215de5fe2b4_Screenshot 2024-03-02 173152.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "pic/user/00a36c7a-7f39-4d8d-9bf9-4215de5fe2b4_Screenshot 2024-03-02 173152.png",
       "AssetKind": "All",
@@ -1176,29 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\pic\\user\\00a36c7a-7f39-4d8d-9bf9-4215de5fe2b4_Screenshot 2024-03-02 173152.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\1e21a146-c785-41ee-8790-4c9bd53bc261_the-creation-adam.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\user\\22d6fcf7-ad27-432b-9f04-da9655025eb5_channels4_profile.jpg",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
-      "BasePath": "_content/Touchgrass",
-      "RelativePath": "pic/user/1e21a146-c785-41ee-8790-4c9bd53bc261_the-creation-adam.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pic\\user\\1e21a146-c785-41ee-8790-4c9bd53bc261_the-creation-adam.png"
-    },
-    {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\22d6fcf7-ad27-432b-9f04-da9655025eb5_channels4_profile.jpg",
-      "SourceId": "Touchgrass",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "pic/user/22d6fcf7-ad27-432b-9f04-da9655025eb5_channels4_profile.jpg",
       "AssetKind": "All",
@@ -1214,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\pic\\user\\22d6fcf7-ad27-432b-9f04-da9655025eb5_channels4_profile.jpg"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\3a5cfaee-1af2-470e-bc00-6ebfbc0abb83_me-when-i-see-a-spider-and-im-holding-a-crossing-sign-v0-boadbriii62c1.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\user\\3a5cfaee-1af2-470e-bc00-6ebfbc0abb83_me-when-i-see-a-spider-and-im-holding-a-crossing-sign-v0-boadbriii62c1.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "pic/user/3a5cfaee-1af2-470e-bc00-6ebfbc0abb83_me-when-i-see-a-spider-and-im-holding-a-crossing-sign-v0-boadbriii62c1.png",
       "AssetKind": "All",
@@ -1233,12 +1290,12 @@
       "OriginalItemSpec": "wwwroot\\pic\\user\\3a5cfaee-1af2-470e-bc00-6ebfbc0abb83_me-when-i-see-a-spider-and-im-holding-a-crossing-sign-v0-boadbriii62c1.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\531784f6-e1a3-4a1c-bc77-4ac6fa1e8ad3_add.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\user\\42a93874-ac67-43c1-b2e9-21dd9ccc8589_smiling-face.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
-      "RelativePath": "pic/user/531784f6-e1a3-4a1c-bc77-4ac6fa1e8ad3_add.png",
+      "RelativePath": "pic/user/42a93874-ac67-43c1-b2e9-21dd9ccc8589_smiling-face.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1249,89 +1306,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pic\\user\\531784f6-e1a3-4a1c-bc77-4ac6fa1e8ad3_add.png"
+      "OriginalItemSpec": "wwwroot\\pic\\user\\42a93874-ac67-43c1-b2e9-21dd9ccc8589_smiling-face.png"
     },
     {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\aac68447-ad4d-4581-8729-ef48e0ace4a6_Sun-Ray-PNG-Image.png",
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\user.png",
       "SourceId": "Touchgrass",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
-      "BasePath": "_content/Touchgrass",
-      "RelativePath": "pic/user/aac68447-ad4d-4581-8729-ef48e0ace4a6_Sun-Ray-PNG-Image.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pic\\user\\aac68447-ad4d-4581-8729-ef48e0ace4a6_Sun-Ray-PNG-Image.png"
-    },
-    {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\bd01e774-0bd9-4ebc-9a88-6a0612e30708_god-touch-grass-1.png",
-      "SourceId": "Touchgrass",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
-      "BasePath": "_content/Touchgrass",
-      "RelativePath": "pic/user/bd01e774-0bd9-4ebc-9a88-6a0612e30708_god-touch-grass-1.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pic\\user\\bd01e774-0bd9-4ebc-9a88-6a0612e30708_god-touch-grass-1.png"
-    },
-    {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\bec33765-beea-434b-9e36-90834dfdaba1_cube.png",
-      "SourceId": "Touchgrass",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
-      "BasePath": "_content/Touchgrass",
-      "RelativePath": "pic/user/bec33765-beea-434b-9e36-90834dfdaba1_cube.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pic\\user\\bec33765-beea-434b-9e36-90834dfdaba1_cube.png"
-    },
-    {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user\\f25964ed-f269-49df-b466-00beca1018af_oum.png",
-      "SourceId": "Touchgrass",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
-      "BasePath": "_content/Touchgrass",
-      "RelativePath": "pic/user/f25964ed-f269-49df-b466-00beca1018af_oum.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\pic\\user\\f25964ed-f269-49df-b466-00beca1018af_oum.png"
-    },
-    {
-      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\pic\\user.png",
-      "SourceId": "Touchgrass",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\wwwroot\\",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
       "BasePath": "_content/Touchgrass",
       "RelativePath": "pic/user.png",
       "AssetKind": "All",
@@ -1345,6 +1326,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pic\\user.png"
+    },
+    {
+      "Identity": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\pic\\user\\user.png",
+      "SourceId": "Touchgrass",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\wwwroot\\",
+      "BasePath": "_content/Touchgrass",
+      "RelativePath": "pic/user/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pic\\user\\user.png"
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\Touchgrass.csproj": {}
+    "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\Touchgrass.csproj": {}
   },
   "projects": {
-    "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\Touchgrass.csproj": {
+    "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\Touchgrass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\Touchgrass.csproj",
+        "projectUniqueName": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\Touchgrass.csproj",
         "projectName": "Touchgrass",
-        "projectPath": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\Touchgrass.csproj",
+        "projectPath": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\Touchgrass.csproj",
         "packagesPath": "C:\\Users\\Kidsadoi\\.nuget\\packages\\",
-        "outputPath": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\Oum-code\\TouchGrass-oum-navbar\\Touchgrass\\obj\\",
+        "outputPath": "D:\\CE Classroom\\Semester 2D_2\\Web Dev\\The lestest touchgrass\\TouchGrass-cap-homepage\\Touchgrass\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kidsadoi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

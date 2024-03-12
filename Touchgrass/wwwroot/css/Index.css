@@ -19,8 +19,6 @@
     background-color: #161d1d;
     color: #fcfffc;
     margin: 20px;
-}
-.act-block:hover {
     box-shadow: 0px 0px 5px 5px #258e3f;
 }
 .left-side {
@@ -115,6 +113,7 @@
     justify-content: center;
 }
 .overlay-member-text {
+    font-size: 24px;
     margin-top: 24px;
 }
 .description {

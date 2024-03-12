@@ -7,6 +7,44 @@
     margin-top: 40px;
 }
 
+.setting-container .bio-box {  
+    display: none;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.setting-container .bio-box form{  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 90%;
+}
+
+.setting-container .bio-box input{
+    color: #000000;
+    border-radius: 15px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.setting-container .bio-box button{
+    color: #258e3f;
+    background-color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #258e3f;
+}
+
+.setting-container .bio-box button:hover{
+    background-color: #258e3f;
+    color: #ffffff;
+}
+
 .setting-container .setting-box {
     display: flex;
     flex-direction: column;
@@ -65,15 +103,18 @@
 }
 
 .setting-container .picture-box form button{
-    background-color: #248232;
+    color: #258e3f;
+    background-color: transparent;
     border-radius: 15px;
     cursor: pointer;
     border-style: solid;
     margin-left: 5px;
+    border-color: #258e3f;
 }
 
 .setting-container .picture-box form button:hover{
-    background-color: #2ba84a;
+    background-color: #258e3f;
+    color: #ffffff;
 }
 
 .current-picture{
@@ -99,14 +140,17 @@
 }
 
 .setting-container .password-box button{
-    background-color: #248232;
+    color: #258e3f;
+    background-color: transparent;
     border-radius: 15px;
     cursor: pointer;
     border-style: solid;
+    border-color: #258e3f;
 }
 
 .setting-container .password-box button:hover{
-    background-color: #2ba84a;
+    background-color: #258e3f;
+    color: #ffffff;
 }
 
 .setting-container .logout-box{
@@ -119,14 +163,17 @@
 }
 
 .setting-container .logout-box button{
-    background-color: #cc0c0c;
+    color: #cc3d3d;
+    background-color: transparent;
     border-radius: 15px;
     cursor: pointer;
     border-style: solid;
+    border-color: #cc3d3d
 }
 
 .setting-container .logout-box button:hover{
     background-color: #cc3d3d;
+    color: #ffffff;
 }
 
 .setting-container .on-off-box{
