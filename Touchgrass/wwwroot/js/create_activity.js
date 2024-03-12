@@ -115,7 +115,7 @@ function openSearchAddress() {
       if (this.value == "") this.remove();
       var newTag = document.createElement("div");
       newTag.innerHTML = `
-          <input type="checkbox" id="${this.value}" name="tags" class='check' value='${this.value}'>
+          <input type="checkbox" id="${this.value}" name="Tag" class='check' value='${this.value}'>
           <label for="${this.value}" class='checkstr'>${this.value}</label>
       `;
       this.parentNode.insertBefore(newTag, this);

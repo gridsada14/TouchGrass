@@ -29,7 +29,6 @@ public class CreateActivityController : Controller
                 formData[key] = value;
         }
         var filePaths = new List<string>();
-        Console.WriteLine(Images.Count);
         if (Images != null && Images.Count > 0)
         {
             foreach (var uploadedFile in Images)
@@ -51,21 +50,21 @@ public class CreateActivityController : Controller
                 string relativePath = Path.Combine("pic", "activity", uniqueFileName);
                 filePaths.Add(relativePath);
             }
-            formData["Images"] = filePaths;
+            formData["Img"] = filePaths;
         }
-        if (!formData.ContainsKey("Tags"))
+        if (!formData.ContainsKey("Tag"))
         {
-            formData["Tags"] = "";
+            formData["Tag"] = "";
         }
-        string tagsString = formData["Tags"].ToString() ?? "";
+        string tagsString = formData["Tag"].ToString() ?? "";
         List<string> tagsList = string.IsNullOrEmpty(tagsString) ? new List<string>() : new List<string>(tagsString.Split(','));
-        formData["Tags"] = tagsList;
+        formData["Tag"] = tagsList;
 
-        string json = System.IO.File.ReadAllText("/Database/Activity.json");
+        string json = System.IO.File.ReadAllText("Database/Activity.json");
         List<Dictionary<string, object>> fileContents = JsonConvert.DeserializeObject<List<Dictionary<string, object>>>(json);
         fileContents.Add(formData);
         string jsons = JsonConvert.SerializeObject(fileContents, Formatting.Indented);
-        System.IO.File.WriteAllText("/Database/Activity.json", jsons);
+        System.IO.File.WriteAllText("Database/Activity.json", jsons);
 
         return RedirectToAction("Index", "Home");
     }

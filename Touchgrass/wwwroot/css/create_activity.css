@@ -43,10 +43,6 @@ label[for="nameact"] {
     border-radius: 10px;
 }
 
-#nameact  {
-    border: none;
-    border-radius: 10px;
-}
 
 label > * {
     color: #6c707a;

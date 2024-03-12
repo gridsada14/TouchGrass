@@ -72,18 +72,18 @@
 
                 <label for="images">
                     <div style="position: relative; width:100%;height:100%; background:none;">
-                        <input type="file" name="Images" accept="image/*" id="images" onchange="getImg(event)" multiple>
+                        <input type="file" name="Imag" accept="image/*" id="images" onchange="getImg(event)" multiple>
                         <div class="images-container"></div>
                     </div>
                 </label>
 
                 <label for="addresss">
                     <textarea id="addresss" title='address' onclick=openSearchAddress() rows="3"
-                        placeholder="Enter the address" required name="Address"></textarea>
+                        placeholder="Enter the address" required name="Place"></textarea>
                 </label>
 
-                <label for="date">
-                    <input type="datetime-local" name="DateTime" id="date" required format="HH:mm:ss dd-MM-yyyy">
+                <label for="date" class="act">
+                    <input type="date" name="Date" id="datee" required >
                 </label>
 
                 <div class='nump'>
@@ -113,18 +113,18 @@
                     <div class="inTag">
                         @foreach (var tag in restaurantTag)
                         {
-                            <input type="checkbox" id="@tag" name="tags" class='check' value='@tag'>
-                            <label for="@tag" class='checkstr'>@tag</label>
+                            <input type="checkbox" id="@($"{tag}1")" name="tags" class='check' value='@tag'>
+                            <label for="@($"{tag}1")" class='checkstr'>@tag</label>
                         }
                         @foreach (var tag in sportTag)
                         {
-                            <input type="checkbox" id="@tag" name="tags" class='check' value='@tag'>
-                            <label for="@tag" class='checkstr'>@tag</label>
+                            <input type="checkbox" id="@($"{tag}1")" name="tags" class='check' value='@tag'>
+                            <label for="@($"{tag}1")" class='checkstr'>@tag</label>
                         }
                         @foreach (var tag in activityTag)
                         {
-                            <input type="checkbox" id="@tag" name="tags" class='check' value='@tag'>
-                            <label for="@tag" class='checkstr'>@tag</label>
+                            <input type="checkbox" id="@($"{tag}1")" name="tags" class='check' value='@tag'>
+                            <label for="@($"{tag}1")" class='checkstr'>@tag</label>
                         }
                         <i class="fa-solid fa-plus checkstr" style="color:#fcfffc" onclick="getNewTag(this)"
                             aria-hidden="true"></i>
