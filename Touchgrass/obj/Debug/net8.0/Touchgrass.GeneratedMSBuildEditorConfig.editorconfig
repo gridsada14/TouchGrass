@@ -18,8 +18,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Codinggggg\WebappAssignment\PROJECC WEBAPP\TouchGrass\Touchgrass
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Codinggggg/WebappAssignment/PROJECC WEBAPP/TouchGrass/Touchgrass/Views/Home/Act.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Codinggggg/WebappAssignment/PROJECC WEBAPP/TouchGrass/Touchgrass/Views/Home/CreateActivity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVBY3Rpdml0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Codinggggg/WebappAssignment/PROJECC WEBAPP/TouchGrass/Touchgrass/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Codinggggg/WebappAssignment/PROJECC WEBAPP/TouchGrass/Touchgrass/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Codinggggg/WebappAssignment/PROJECC WEBAPP/TouchGrass/Touchgrass/Views/Home/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Codinggggg/WebappAssignment/PROJECC WEBAPP/TouchGrass/Touchgrass/Views/Home/Setting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXR0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Codinggggg/WebappAssignment/PROJECC WEBAPP/TouchGrass/Touchgrass/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Codinggggg/WebappAssignment/PROJECC WEBAPP/TouchGrass/Touchgrass/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Codinggggg/WebappAssignment/PROJECC WEBAPP/TouchGrass/Touchgrass/Views/Shared/Error.cshtml]
@@ -37,10 +65,6 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Codinggggg/WebappAssignment/PROJECC WEBAPP/TouchGrass/Touchgrass/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Codinggggg/WebappAssignment/PROJECC WEBAPP/TouchGrass/Touchgrass/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-dezz4v976g
 
 [C:/Codinggggg/WebappAssignment/PROJECC WEBAPP/TouchGrass/Touchgrass/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

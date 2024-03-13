@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FAXkrldoDCoKqnKRXNYlMj63eWCNW+wfGo/iYJdh0PIXC66RRrp1tQKwOk3+Pc/xXxQCdoSXcA6ffTE/6Gyedw==",
+  "dgSpecHash": "66uWm/K7+TkjvxyDNxNrNCQodod3v/J5SXTiU4zThUe5rvPQFQiHKwwjDBRYDpe57d0Zd67a55H/PCEtuUbqAQ==",
   "success": true,
   "projectFilePath": "C:\\Codinggggg\\WebappAssignment\\PROJECC WEBAPP\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Nitro\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

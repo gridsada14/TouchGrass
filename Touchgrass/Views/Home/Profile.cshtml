@@ -1,0 +1,119 @@
+@{
+  var userName = @Context.Session.GetString("Name");
+  var userPic = @Context.Session.GetString("Pic");
+  var userBio = @Context.Session.GetString("Bio");
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <title>Activity</title>
+  <link rel="stylesheet" href="~/css/profile.css" />
+  <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>
+</head>
+
+
+<body>
+  <main>
+
+
+    <section class="content">
+
+      <div class="profile">
+        <div class="profile-left">
+          <div>
+            <img src="@userPic" alt="" />
+          </div>
+
+        </div>
+        <div class="profile-right">
+
+          <h1 class="profile-user-name">@userName</h1>
+          <span class="profile-real-name">BIO :</span>
+          <div class="profile-bio">
+            <p>@userBio</p>
+
+          </div>
+
+
+
+        </div>
+      </div>
+      <!-- End of profile section -->
+
+      <div class="left-bottom">
+        <div class="weekly-schedule">
+          <h1>Schedule</h1>
+          <div class="calendar">
+            @foreach (var act in Model)
+            {
+                DateTime timeNow = DateTime.Now;
+                DateTime expireDateNewFormat = DateTime.Parse(act.ExpireDate);
+                @if (expireDateNewFormat > timeNow) {
+                    @foreach (var mb in act.Member)
+                    {
+                        @if (mb.Users.Name == @Context.Session.GetString("Name"))
+                        {
+                        <div class="day-and-activity" onclick="event.stopPropagation();viewActivity(this);" id="@act.Ids">
+                            <div class=left-container>
+                            <div class="day">
+                                <h1>@act.Date[0]@act.Date[1]</h1>
+                                @switch(string.Concat(act.Date[3],act.Date[4])){
+                                case "01": <p>Jan</p> break;
+                                case "02": <p>Feb</p> break;
+                                case "03": <p>Mar</p> break;
+                                case "04": <p>Apr</p> break;
+                                case "05": <p>May</p> break;
+                                case "06": <p>Jun</p> break;
+                                case "07": <p>Jul</p> break;
+                                case "08": <p>Aug</p> break;
+                                case "09": <p>Sep</p> break;
+                                case "10": <p>Oct</p> break;
+                                case "11": <p>Nov</p> break;
+                                case "12": <p>Dec</p> break;
+                                }
+                                <p>@act.Date[6]@act.Date[7]@act.Date[8]@act.Date[9]</p>
+                            </div>
+                            <div class="activity">
+                                <h2>@act.Title</h2>
+                                <div class="participants">
+                                @foreach (var meme in act.Member) 
+                                {
+                                    <img src=@meme.Users.Pic >
+                                }
+                                </div>
+                            </div>
+                            </div>
+                            <div class="btn-inline">
+                            <button class="btn" type="submit" onclick="event.stopPropagation();leaveAct(this);" id="@act.Ids">Bid</button>
+                            @if (mb.Status == "Pending") {
+                                <button class='pending'>@mb.Status</button>
+                            }
+                            else if (mb.Status == "Joined") {
+                                <button class='joined'>@mb.Status</button>
+                            }
+                            else if (mb.Status == "Host") {
+                                <button class='host'>@mb.Status</button>
+                            }
+                            </div>
+                        </div>
+                        }
+                    }
+                }
+            }
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+  </main>
+  <script src="~/js/profile.js"></script>
+  <script src="~/js/Index.js"></script>
+</body>
+
+</html>

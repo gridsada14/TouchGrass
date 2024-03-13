@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Setting";
+    var userPic = @Context.Session.GetString("Pic");
+    var userBio = @Context.Session.GetString("Bio");
+}
+<div class="setting-container">
+    <div class="setting-box">
+        <p>Account</p>
+        <a onclick="HSbyClass('.picture-box',event)">• User Picture</a>
+        <div class="picture-box">
+            <img class="current-picture" src="@userPic">
+            <form method="post" asp-controller="Setting" asp-action="Picture" enctype="multipart/form-data">
+                <input type="file" name="filename" accept="image/*">
+                <button type="submit">Change Picture</button>
+            </form>
+        </div>
+        <a onclick="HSbyClass('.bio-box',event)">• User Bio</a>
+        <div class="bio-box">
+            <form method="post" asp-controller="Setting" asp-action="Bio">
+                <input type="text" name="bio" value="@userBio" placeholder="Write your Bios here!">
+                <button type="submit">Change Infos</button>
+            </form>
+        </div>
+        <a onclick="HSbyClass('.password-box',event)">• User Password</a>
+        <div class="password-box">
+            <form method="post" asp-controller="Setting" asp-action="Password" class="change-password">
+                <input class="old-password" type="password" placeholder="old-password" name="old_password">
+                <input class="new-password" type="password" placeholder="new-password" name="new_password">
+                <button type="submit">Save Changes</button>
+            </form>
+        </div>
+        <a onclick="HSbyClass('.logout-box',event)">• Log Out</a>
+        <div class="logout-box">
+            <form method="post" asp-controller="Logout" asp-action="Logout" class="logout">
+                <button type="submit">Log Out</button>
+            </form>
+        </div>
+    </div>
+</div>
+@if(ViewBag.ErrorMessage != null)
+{
+    <script>
+        window.onload = function() {
+            alert("@ViewBag.ErrorMessage");
+        };
+    </script>
+}

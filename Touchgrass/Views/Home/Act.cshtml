@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Grass</title>
+
+    <link rel="icon" type="image/png" href="~/img/touch-grass-logo.png">
+    <link rel="stylesheet" href="~/css/ActStyle.css">
+    
+    @{
+        ViewData["Title"] = "Activity ";
+
+        @* string jsonModelTime = System.Text.Json.JsonSerializer.Serialize(Model.Time); *@
+    }
+
+    
+</head>
+
+<body>
+    @* <div class="quick-btn">
+        <p>↥</p>
+    </div> *@
+    <div class="my-container">
+        <div class="main-container">
+            <div class="slide-container">
+                @foreach (var image in Model.Img) {
+                    <div class="slide-content">
+                        <img src=\@image class="background">
+                        <img src=\@image class="show">
+                    </div>
+                }
+                @* <div class="slide-content" style="display: block;">
+                    <img src="~/img/mountain.jpg" class="background"></img>
+                    <img src="~/img/mountain.jpg" class="show">
+                </div>
+                <div class="slide-content">
+                    <img src="~/img/jungle.jpg" class="background"></img>
+                    <img src="~/img/jungle.jpg" class="show">
+                </div>
+                <div class="slide-content">
+                    <img src="~/img/panorama.jpg" class="background"></img>
+                    <img src="~/img/panorama.jpg" class="show">
+                </div>
+                <div class="slide-content">
+                    <img src="~/img/house.jpg" class="background"></img>
+                    <img src="~/img/house.jpg" class="show">
+                </div> *@
+
+                <a class="prev" onclick="moveSlides(-1)">←</a>
+                <a class="next" onclick="moveSlides(1)">→</a>
+
+                @* <div class="dot-content">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div> *@
+            </div>
+
+            <div class="tag-container">
+                @foreach (var item in @Model.Tag) {
+                    <a href="#" class="tag">
+                        <div class="tag-type">@item</div>
+                    </a>
+                }
+            </div>
+
+            <div class="title-container">
+                <div class="title-head">@Model.Title</div>
+                <div class="title-content">
+                    <div class="title-time">
+                        <div class="time-icon">
+                            <img src="/img/time.png">
+                        </div>
+                        <p class="time-data">
+                            @Model.Date
+                        </p>
+                    </div>
+                    <div class="title-place">
+                        <div class="place-icon">
+                            <img src="~/img/placeholder.png">
+                        </div>
+                        <p class="place-data">
+                            @Model.Place
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-container">
+                <div class="info-head">
+                    More Info
+                </div>
+                @{  
+                    string description = Model.Description;
+                    string[] infoArray = System.Text.RegularExpressions.Regex.Split(description, @"\n+");
+                }
+                <div class="info-content">
+                    @foreach (var info in infoArray)
+                    {
+                        <div style="color: #6c707a;">@info</div>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="side-container">
+            <div class="responsive-flex">
+                <div class="invite-container">
+                    <div class="invite-head">Invitation will end in</div>
+                    <div class="invite-timer" id="@Model.Date"></div>
+                    @{var check = 0;}
+                    @foreach (var mb in @Model.Member){
+                        @if (mb.Users.Name == @Context.Session.GetString("Name")){
+                            check = 1;
+                            <button class="invite-btn" type="button" id="@Model.Ids">Joined</button>
+                        }
+                    }
+                    @if (check == 0) {
+                        <button class="invite-btn" type="button" onclick="event.stopPropagation();joinAct(this);" id="@Model.Ids">Join</button>
+                    }
+                </div>
+                <div class="owner-container">
+                    <div class="wrap-owner">
+                        <img class="owner-img" src="@Model.Member[0].Users.Pic" alt="">
+                        <div class="owner-content">
+                            <div class="owner-head">Activity Owner</div>
+                            <div class="owner-name">@Model.Member[0].Users.Name</div>
+                            @* <button class="owner-btn">view account</button> *@
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="member-container">
+                <p class="monitor-title">Activity Member</p>
+                <div class="member-monitor">
+                    <div class="limit-content">
+                        <p class="member-limit">Party Goup: </p>
+                        @{var memCount = 1;}
+                        @foreach (var ppl in @Model.Member) {
+                            if (ppl.Status == "Joined"){ memCount +=1;}
+                        }
+                        <div class="group-now">@memCount</div>
+                        <div class="slash">/</div>
+                        <div class="limit">@Model.MaxMember</div>
+                    </div>
+                    @* <div class="member-join">
+                        <div class="join-main">
+                            <div class="join">2</div>
+                            <div class="require">6</div>
+                        </div>
+                        <img src="~/img/add-outside.png" class="add-outside">
+                        <div class="outside">2</div>
+                    </div> *@
+                </div>
+                <div class="member-display">
+                    @foreach(var member in @Model.Member) {
+                        <div class="member">
+                            <div class="member-info">
+                                <img src=@member.Users.Pic>
+                                <div class="member-content">
+                                    <p class="member-name">@member.Users.Name</p>
+                                    <p class="member-status-join">@member.Status</p>
+                                </div>
+                            </div>
+                            <div class="member-action">
+                                @if (Context.Session.GetString("Name") == @Model.Host.Users.Name)  {
+                                    if (member.Status != "Host") {
+                                        if (member.Status == "Pending") {
+                                            <button class="accept-btn" id="@member.Users.Ids" onclick="acceptMember(this)">Accept</button>
+                                            <button class="kick-btn" id="@member.Users.Ids" onclick="kickMember(this)">Kick</button>
+                                        } else if (member.Status == "Joined") {
+                                            <button class="kick-btn" id="@member.Users.Ids" onclick="kickMember(this)">Kick</button>
+                                        }
+                                    } 
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="~/js/activityScript.js"></script>
+<script src="~/js/timer.js"></script>
+<script src="~/js/statusColor.js"></script>

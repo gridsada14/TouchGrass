@@ -1,49 +1,133 @@
-﻿<!DOCTYPE html>
+﻿﻿@{
+    List<string> restaurantTag = new List<string> {
+  "🍜 noodle",
+  "🥗 salad",
+  "🥓 muu kra ta",
+  "🍔 hamburgur",
+  "🥩 steak",
+  "🍝 pasta",
+  "🍕 pizza",
+  "🍣 sushi",
+  "🍛 curry",
+  "☕ café",
+  "🍨 ice cream",
+  "🍰 cake",
+  "🍻 alcohal",
+  "🍹 bar",
+  "🌃 rooftop",
+  "🎵 live music",
+  };
+      List<string> sportTag = new List<string> {
+  "⚽ football",
+  "⚾ baseball",
+  "🏀 basketball",
+  "⛳ golf",
+  "🎾 tennis",
+  "🏐 volleyball",
+  "🏸 badminton",
+  "🥊 boxing",
+  "🏓 table tennis",
+  "🎱 snooker",
+  };
+      List<string> activityTag = new List<string> {
+  "🚶 walking",
+  "💻 video game",
+  "🎲 boardgame",
+  "🎬 movie",
+  "🗺️ trip",
+  "🏔️ mountain",
+  "🏖️ beach",
+  "🎸 concert",
+  "🥁 music",
+  "📖 reading",
+  "🎨 art",
+  "🎊 party",
+  };
+
+  var userName = @Context.Session.GetString("Name");
+  var userPic = @Context.Session.GetString("Pic");
+}
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Touchgrass</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Touchgrass.styles.css" asp-append-version="true" />
+    <title>@ViewData["Title"]</title>
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"> 
+    @* <link rel="stylesheet" href="~/TouchGrass.styles.css"/>  *@
+    <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet' asp-append-version="true">
+    <link rel="stylesheet" href="~/css/setting.css" asp-append-version="true">
 </head>
 <body>
+  @if (User.Identity.IsAuthenticated)
+  {
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Touchgrass</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="topnav">
+      <div class="logo-container">
+        <a class="logo" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/pic/touch-grass-logo.png"></a>
+        <a class="home" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/pic/touch-grass-logo.png">Touchgrass</a>
+      </div>
+      <div class="merge-container">
+        <div class="search-container">
+          <form asp-controller="Home" asp-action="Index" method="post">
+            <input type="text" class="search-bar" id="search-bar" placeholder="Find Your Group" name="keyword">
+            <button type="submit" class="search-button"><img src="~/pic/search.png"></button>
+            <button type="button" class="search-filter" onclick="toggleFilterTab(); resetFilter();">
+              <img src="~/pic/filter.png">
+            </button>
+            <div class="filter-tab">
+            <a class="Date" onclick="HSbyID('#date',event);">Date</a>
+            <div class="filter-box" id="date" >
+              <input type="date" name="date" placeholder="YYYY-MM-DD">
+            </div>           
+            <a class="Tag" onclick="HSbyID('#tag',event);">Tag</a>
+            <div class="filter-box" id="tag">
+              @foreach (var tag in restaurantTag)
+                        {
+                          <div class="option">
+                            <input type="checkbox" id="@tag" name="tag" class='check' value='@tag'>
+                            <label for="@tag" class='checkstr'>@tag</label>
+                          </div>
+                        }
+              @foreach (var tag in sportTag)
+                        {
+                          <div class="option">
+                            <input type="checkbox" id="@tag" name="tag" class='check' value='@tag'>
+                            <label for="@tag" class='checkstr'>@tag</label>
+                          </div>
+                        }
+              @foreach (var tag in activityTag)
+                        {
+                          <div class="option">
+                            <input type="checkbox" id="@tag" name="tag" class='check' value='@tag'>
+                            <label for="@tag" class='checkstr'>@tag</label>
+                          </div>
+                        }
             </div>
-        </nav>
+          </div>
+          </form>
+        </div>
+        <a class="expand-user" onclick="toggleUserContainer()"><img src="~/pic/square.png"></a>
+        <div class="user-container">
+          <a class="user-ele" id="create" asp-area="" asp-controller="Home" asp-action="CreateActivity"><img src="~/pic/create.png"><p class="ele-txt">Create</p></a>
+          <a class="user-ele" id="setting" asp-area="" asp-controller="Home" asp-action="Setting"><img src="~/pic/settings.png"><p class="ele-txt">Setting</p></a>
+          <a class="user-ele" id="profile" asp-area="" asp-controller="Home" asp-action="Profile"><img src="@userPic"><p class="ele-txt">@userName</p></a>
+        </div>
+      </div>
+    </nav>
     </header>
+  }
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - Touchgrass - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/site.js"></script>
+    <script src="~/js/setting.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

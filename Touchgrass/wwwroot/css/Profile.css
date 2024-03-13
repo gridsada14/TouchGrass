@@ -1,0 +1,368 @@
+
+
+/* CONTENT */
+
+.content {
+  width: 100%;
+  background-color: #040f0f;
+}
+
+/* Base Styles */
+
+:root {
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+.btn {
+  display: inline-block;
+  font: inherit;
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0.5rem auto #4d90fe;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Profile Section */
+.profile {
+  padding: 5rem 0;
+  display: flex;
+  grid-template-columns: 40% 60%;
+  gap: 2rem; /* Add spacing between columns */
+  justify-content: center;
+  background-color: rgb(22, 29, 29);
+}
+
+.profile::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.profile-left {
+  text-align: center; /* Center content within the left column */
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+.profile-left img {
+  border-radius: 50%;
+  width: 240px;
+  height: 250px;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+.profile-user-name {
+  font-size: 50px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #2ba244;
+}
+
+.profile-bio {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: #6c707a;
+}
+
+.profile-real-name,
+.profile-edit-btn {
+  font-weight: 600;
+  font-size: 25px;
+  color: #fcfffc;
+}
+
+/* LEFT BOTTOM */
+
+.left-bottom {
+  display: grid;
+  grid-template-columns: 100%; /* Make the schedule section span the full width */
+}
+
+/* SCHEDULE */
+
+.weekly-schedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weekly-schedule h1 {
+  margin: 10px 50px;
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(235, 235, 235);
+}
+
+.calendar {
+  margin: 0px !important;
+}
+
+.day-and-activity {
+  display: flex;
+  align-items: center;
+  border-radius: 14px;
+  width: 750px;
+  color: #484d53;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+  justify-content: space-between;
+  margin: 25px 25px;
+  
+  box-shadow: 0px 0px 5px 5px #258e3f;
+  
+  background-color: rgb(4, 15, 15);
+  background-image: linear-gradient(
+    240deg,
+    rgb(22, 29, 29) 0%,
+    rgb(4, 11, 8) 100%
+  );
+}
+.day-and-activity:hover {
+  animation: gelatine 0.5s 1;
+}
+.left-container {
+  display: flex;
+}
+
+.day {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.day h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0 !important;
+  justify-content: space-between;
+  color: #24c647;
+}
+
+.day p {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin: auto;
+  color: #248232;
+}
+
+.activity {
+  border-left: 5px solid #484d53;
+  justify-content: space-between;
+}
+
+.participants {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+}
+
+.participants img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: calc(2 * var(--i));
+  margin-left: -10px;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px;
+}
+
+.activity h2 {
+  margin: 10px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 12px;
+  color: #2ba48a;
+}
+
+.btn-inline .btn {
+  display: block;
+  width: 100px;
+  padding: 15px 24px;
+  margin: 10px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  text-decoration: double;
+  color: #26a84a;
+  background: #115124;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  border: 1.5px solid #258e3f;
+  border-radius: 16px;
+  cursor: pointer;
+  justify-content: space-around;
+  
+}
+.btn-inline .pending {
+  display: block;
+  width: 100px;
+  padding: 15px 24px;
+  margin: 10px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  text-decoration: double;
+  color: #bfae48;
+  background: #767441;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  cursor: pointer;
+  border-color: #262626;
+  justify-content: space-around;
+}
+.btn-inline .joined {
+  display: block;
+  width: 100px;
+  padding: 15px 24px;
+  margin: 10px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  text-decoration: double;
+  color: #26a84a;
+  background: #115124;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  cursor: pointer;
+  border-color: #262626;
+  justify-content: space-around;
+}
+.btn-inline .host {
+  display: block;
+  width: 100px;
+  padding: 15px 24px;
+  margin: 10px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  text-decoration: double;
+  color: #26a84a;
+  background: #115124;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  cursor: pointer;
+  border-color: #262626;
+  justify-content: space-around;
+}
+.btn-inline {
+  justify-content: space-between;
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn:visited {
+  transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+  animation: gelatine 0.5s 1;
+  background-color: #155124;
+  border: none;
+}
+
+@keyframes gelatine {
+  0%,
+  100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+/*ipad mini to ipad (not) pro*/
+@media (max-width: 768px) {
+  .day-and-activity {
+    width: 450px;
+  }
+  .left-container {
+    width: 330px;
+  }
+  /*width 767px*/
+  .day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: space-around;
+    width: 70px;
+    margin: 0px 10px;
+  }
+  .activity {
+    width: 230px;
+    border-left: 5px solid #484d53;
+    justify-content: space-around;
+    height: 90px;
+  }
+
+  .activity img {
+    display: none;
+  }
+
+  .btn-inline {
+    width: 120px;
+  }
+  .activity h2 {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
+/*phone like  Iphone 5, SE, galaxy s8, s20  to iphone 14 pro max*/
+@media (max-width: 520px) {
+  .day-and-activity {
+    width: 320px;
+  }
+  .left-container {
+    width: 200px;
+  }
+  .btn-inline {
+    width: 120px;
+  }
+  .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+}
