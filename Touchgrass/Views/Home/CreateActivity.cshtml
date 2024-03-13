@@ -61,72 +61,74 @@
 </head>
 
 <body>
-    <main class="main">
+    <main class="p main">
         <div style="position: relative;">
-            <form method="post" asp-area="" asp-controller="CreateActivity" asp-action="CreateActivity" enctype="multipart/form-data">
-                <h1 class="header">Create Activity</h1>
+            <form method="post" asp-area="" asp-controller="CreateActivity" asp-action="CreateActivity"
+                enctype="multipart/form-data" class="p">
+                <h1 class="p header">Create Activity</h1>
 
-                <label for="nameact">
-                    <input type="text" name="Title" id="nameact" placeholder="Enter activity name" required>
+                <label for="nameact" class="p">
+                    <input class="p" type="text" name="Title" id="nameact" placeholder="Enter activity name" required>
                 </label>
 
-                <label for="images">
+                <label for="images" class="p">
                     <div style="position: relative; width:100%;height:100%; background:none;">
-                        <input type="file" name="Imag" accept="image/*" id="images" onchange="getImg(event)" multiple>
-                        <div class="images-container"></div>
+                        <input type="file" name="Img" accept="image/*" id="images" onchange="getImg(event)" class="p" multiple>
+                        <div class="p images-container"></div>
                     </div>
                 </label>
 
-                <label for="addresss">
+                <label for="addresss" class="p">
                     <textarea id="addresss" title='address' onclick=openSearchAddress() rows="3"
-                        placeholder="Enter the address" required name="Place"></textarea>
+                        placeholder="Enter the address" required name="Place" class="p"></textarea>
                 </label>
 
-                <label for="date" class="act">
-                    <input type="date" name="Date" id="datee" required >
+                <label for="date" class="p act">
+                    <input type="date" name="Date" id="datee" required class="p">
                 </label>
 
-                <div class='nump'>
+                <div class='p nump'>
                     <label for="nop">
-                        <div class="max">max</div>
-                        <input type="number" name="MaxPeople" id="nop" min="2" value="2" required>
-                        <p class="max">people</p>
+                        <div class="p max">max</div>
+                        <input type="number" name="MaxMember" id="nop" min="2" value="2" required class="p">
+                        <p class="p max">people</p>
                     </label>
                 </div>
 
-                <label for="descrip">
-                    <textarea name="Description" id="descrip" rows="5" placeholder="Enter your description"></textarea>
+                <label for="descrip" class="p">
+                    <textarea name="Description" id="descrip" rows="5" class="p"
+                        placeholder="Enter your description"></textarea>
                 </label>
 
-                <div class="tag" id="showTag">
-                    <input type="checkbox" style="display: none;" name="Tags">
-                    <i class="fa-solid fa-plus addTag" onclick="getTag()"></i>
+                <div class="p tag" id="showTag">
+                    <input type="checkbox" style="display: none;" name="Tag" class="p">
+                    <i class="p fa-solid fa-plus addTag" onclick="getTag()"></i>
                 </div>
 
-                <button type="reset" class="formbutton" onclick="getImg('reset')">reset</button>
-                <button type="submit" class="formbutton">create</button>
+                <button type="reset" class="p formbutton" onclick="getImg('reset')">reset</button>
+                <button type="submit" class="p formbutton">create</button>
             </form>
 
-            <div id="viewTag">
-                <div class="tagSet">
-                    <button class="done" onclick="closeTag()">done</button>
-                    <div class="inTag">
+            <div id="viewTag" class="p">
+                <div class="p tagSet">
+                    <button class="p done" onclick="closeTag()">done</button>
+                    <div class="p inTag">
                         @foreach (var tag in restaurantTag)
                         {
-                            <input type="checkbox" id="@($"{tag}1")" name="tags" class='check' value='@tag'>
-                            <label for="@($"{tag}1")" class='checkstr'>@tag</label>
+                            <input type="checkbox" id="@($"{tag}1")" name="tags" class='p p check' value='@tag'>
+                            <label for="@($"{tag}1")" class='p checkstr'>@tag</label>
                         }
                         @foreach (var tag in sportTag)
                         {
-                            <input type="checkbox" id="@($"{tag}1")" name="tags" class='check' value='@tag'>
-                            <label for="@($"{tag}1")" class='checkstr'>@tag</label>
+                            <input type="checkbox" id="@($"{tag}1")" name="tags" class='p check' value='@tag'>
+                            <label for="@($"{tag}1")" class='p checkstr'>@tag</label>
                         }
                         @foreach (var tag in activityTag)
                         {
-                            <input type="checkbox" id="@($"{tag}1")" name="tags" class='check' value='@tag'>
-                            <label for="@($"{tag}1")" class='checkstr'>@tag</label>
+                            <input type="checkbox" id="@($"{tag}1")" name="tags" class='p check' value='@tag'>
+                            <label for="@($"{tag}1")" class='p checkstr'>@tag</label>
                         }
-                        <i class="fa-solid fa-plus checkstr" style="color:#fcfffc" onclick="getNewTag(this)"
+                        <i class="p fa-solid fa-plus checkstr" style="color:#fcfffc" onclick="getNewTag(this)"
                             aria-hidden="true"></i>
                     </div>
                 </div>

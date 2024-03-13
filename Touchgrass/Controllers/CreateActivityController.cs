@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Authorization;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Touchgrass.Models;
-using Newtonsoft.Json;   
-   
-namespace Touchgrass.Controllers;   
+using Newtonsoft.Json;
+
+namespace Touchgrass.Controllers;
 
 [Authorize]
 public class CreateActivityController : Controller
@@ -12,26 +12,47 @@ public class CreateActivityController : Controller
     private readonly ILogger<CreateActivityController> _logger;
 
     private readonly IWebHostEnvironment _environment;
-    
+
     public CreateActivityController(ILogger<CreateActivityController> logger, IWebHostEnvironment environment)
     {
         _logger = logger;
         _environment = environment;
     }
-   
+
     [HttpPost]
-    public IActionResult CreateActivity(List<IFormFile> Images)
+    public IActionResult CreateActivity(List<IFormFile> Img)
     {
+        var notFormatFormData = new Dictionary<string, string>();
         var formData = new Dictionary<string, object>();
 
         foreach (var (key, value) in Request.Form)
         {
-                formData[key] = value;
+            notFormatFormData[key] = value;
         }
-        var filePaths = new List<string>();
-        if (Images != null && Images.Count > 0)
+        formData["Title"] = notFormatFormData["Title"];
+        formData["MaxMember"] = int.Parse(notFormatFormData["MaxMember"]);
+        formData["Member"] = new List<string>();
+        formData["Host"] = new Dictionary<string, string>();
+        formData["Ids"] = new Random().Next(10000000);
+        formData["Description"] = notFormatFormData["Description"];
+
+        if (!notFormatFormData.ContainsKey("Tag"))
         {
-            foreach (var uploadedFile in Images)
+            notFormatFormData["Tag"] = "";
+        }
+        string tagsString = notFormatFormData["Tag"].ToString() ?? "";
+        List<string> tagsList = string.IsNullOrEmpty(tagsString) ? new List<string>() : new List<string>(tagsString.Split(','));
+        Console.WriteLine(tagsList);
+        formData["Tag"] = tagsList;
+
+        formData["Place"] = notFormatFormData["Place"];
+
+        var filePaths = new List<string>();
+        Console.WriteLine(Img);
+        Console.WriteLine(Img.Count);
+        if (Img != null && Img.Count > 0)
+        {
+            foreach (var uploadedFile in Img)
             {
                 string uploadsFolder = Path.Combine(_environment.WebRootPath, "pic", "activity");
                 if (!Directory.Exists(uploadsFolder))
@@ -44,7 +65,7 @@ public class CreateActivityController : Controller
 
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
-                        uploadedFile.CopyTo(fileStream);
+                    uploadedFile.CopyTo(fileStream);
                 }
 
                 string relativePath = Path.Combine("pic", "activity", uniqueFileName);
@@ -52,14 +73,23 @@ public class CreateActivityController : Controller
             }
             formData["Img"] = filePaths;
         }
-        if (!formData.ContainsKey("Tag"))
+        var host_name = HttpContext.Session.GetString("Name");
+        var usersjson = System.IO.File.ReadAllText("./Database/User.json");
+        var users = JsonConvert.DeserializeObject<List<User>>(usersjson);
+        var host = users.Find(u => u.Name == host_name);
+        Member Host = new Member
         {
-            formData["Tag"] = "";
-        }
-        string tagsString = formData["Tag"].ToString() ?? "";
-        List<string> tagsList = string.IsNullOrEmpty(tagsString) ? new List<string>() : new List<string>(tagsString.Split(','));
-        formData["Tag"] = tagsList;
-
+            Users = host,
+            Status = "Host"
+        };
+        List<Member> memList = new List<Member>();
+        memList.Add(Host);
+        formData["Host"] = Host;
+        formData["Member"] = memList;
+        DateTime expireDate = DateTime.Parse(notFormatFormData["Date"]).AddDays(7);
+        formData["ExpireDate"] = expireDate.ToShortDateString();
+        DateTime Date = DateTime.Parse(notFormatFormData["Date"]);
+        formData["Date"] = Date.ToShortDateString();
         string json = System.IO.File.ReadAllText("Database/Activity.json");
         List<Dictionary<string, object>> fileContents = JsonConvert.DeserializeObject<List<Dictionary<string, object>>>(json);
         fileContents.Add(formData);
@@ -77,4 +107,3 @@ public class CreateActivityController : Controller
 
 
 }
-    

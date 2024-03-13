@@ -115,7 +115,7 @@ function openSearchAddress() {
       if (this.value == "") this.remove();
       var newTag = document.createElement("div");
       newTag.innerHTML = `
-          <input type="checkbox" id="${this.value}" name="Tag" class='check' value='${this.value}'>
+          <input type="checkbox" id="${this.value}" name="tags" class='check' value='${this.value}'>
           <label for="${this.value}" class='checkstr'>${this.value}</label>
       `;
       this.parentNode.insertBefore(newTag, this);
@@ -138,12 +138,8 @@ function openSearchAddress() {
     checkTag = [];
     for (let i = 0; i < tag.length; i++) {
       if (tag[i].checked && tag[i].name == "tags") {
-        checkTag.push(`<input type="checkbox" id="${tag[i].value.slice(
-          2
-        )}" name="Tags" class='check' value='${tag[i].value}' checked>
-        <label for="${tag[i].value.slice(
-          2
-        )}" class='checkstr' onclick="getTag()">${tag[i].value}</label>`);
+        checkTag.push(`<input type="checkbox" id="${tag[i].value.slice(2)}" name="Tag" class='check' value='${tag[i].value}' checked>
+        <label for="${tag[i].value.slice(2)}" class='checkstr' onclick="getTag()">${tag[i].value}</label>`);
       }
     }
     showTag.innerHTML =

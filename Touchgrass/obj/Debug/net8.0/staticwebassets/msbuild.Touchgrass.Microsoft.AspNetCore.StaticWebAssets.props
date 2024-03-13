@@ -896,6 +896,262 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\04059f38-c518-459e-84c0-f4126b3a15d3_2022-08-02.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/04059f38-c518-459e-84c0-f4126b3a15d3_2022-08-02.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\04059f38-c518-459e-84c0-f4126b3a15d3_2022-08-02.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\111be345-508b-4dd4-8f7f-ef8ce29f9c51_2022-08-02 (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/111be345-508b-4dd4-8f7f-ef8ce29f9c51_2022-08-02 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\111be345-508b-4dd4-8f7f-ef8ce29f9c51_2022-08-02 (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\130acb16-a8a5-46fe-8d8a-019d4a6516d1_2022-08-02.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/130acb16-a8a5-46fe-8d8a-019d4a6516d1_2022-08-02.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\130acb16-a8a5-46fe-8d8a-019d4a6516d1_2022-08-02.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\15cf8297-d755-4522-9795-c326b03ae2d8_2022-11-09.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/15cf8297-d755-4522-9795-c326b03ae2d8_2022-11-09.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\15cf8297-d755-4522-9795-c326b03ae2d8_2022-11-09.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\1b42e43c-f26e-4c73-be53-d63ef1028098_2022-08-21.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/1b42e43c-f26e-4c73-be53-d63ef1028098_2022-08-21.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\1b42e43c-f26e-4c73-be53-d63ef1028098_2022-08-21.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\2f670c22-694e-492e-a847-512259d2440e_2022-08-21.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/2f670c22-694e-492e-a847-512259d2440e_2022-08-21.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\2f670c22-694e-492e-a847-512259d2440e_2022-08-21.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\44bdfe6c-b728-4458-a4ff-8c64eaeeb974_2022-08-23 (2).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/44bdfe6c-b728-4458-a4ff-8c64eaeeb974_2022-08-23 (2).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\44bdfe6c-b728-4458-a4ff-8c64eaeeb974_2022-08-23 (2).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\49426c1f-d0ec-49e5-a76f-06b299f98ec1_2022-08-23.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/49426c1f-d0ec-49e5-a76f-06b299f98ec1_2022-08-23.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\49426c1f-d0ec-49e5-a76f-06b299f98ec1_2022-08-23.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\4b26c503-c846-43a1-adce-24fd8b5cca25_2022-08-21 (2).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/4b26c503-c846-43a1-adce-24fd8b5cca25_2022-08-21 (2).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\4b26c503-c846-43a1-adce-24fd8b5cca25_2022-08-21 (2).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\519b1c3a-676c-4403-a862-367940a8b6d6_2022-08-21 (2).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/519b1c3a-676c-4403-a862-367940a8b6d6_2022-08-21 (2).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\519b1c3a-676c-4403-a862-367940a8b6d6_2022-08-21 (2).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\5334b3ad-9005-4329-ac0d-1e925689a533_2022-08-18 (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/5334b3ad-9005-4329-ac0d-1e925689a533_2022-08-18 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\5334b3ad-9005-4329-ac0d-1e925689a533_2022-08-18 (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\8279b624-0b6d-4293-989d-aeb79aeb8623_2022-08-08.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/8279b624-0b6d-4293-989d-aeb79aeb8623_2022-08-08.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\8279b624-0b6d-4293-989d-aeb79aeb8623_2022-08-08.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\ba30612b-7d5d-4dbe-bdad-32c820fbb3c6_2022-08-02 (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/ba30612b-7d5d-4dbe-bdad-32c820fbb3c6_2022-08-02 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\ba30612b-7d5d-4dbe-bdad-32c820fbb3c6_2022-08-02 (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\bba37968-d95e-4807-9e51-a3ef6cf4221b_2022-08-18 (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/bba37968-d95e-4807-9e51-a3ef6cf4221b_2022-08-18 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\bba37968-d95e-4807-9e51-a3ef6cf4221b_2022-08-18 (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\fce8f30e-363f-4798-a34d-fa5344c20d94_2022-08-03 (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/fce8f30e-363f-4798-a34d-fa5344c20d94_2022-08-03 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\fce8f30e-363f-4798-a34d-fa5344c20d94_2022-08-03 (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\fcf94545-79f4-473f-a103-ac1741ea0b27_2022-08-23 (1).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Touchgrass</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Touchgrass</BasePath>
+      <RelativePath>pic/activity/fcf94545-79f4-473f-a103-ac1741ea0b27_2022-08-23 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\activity\fcf94545-79f4-473f-a103-ac1741ea0b27_2022-08-23 (1).png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\pic\bell.png))">
       <SourceType>Package</SourceType>
       <SourceId>Touchgrass</SourceId>

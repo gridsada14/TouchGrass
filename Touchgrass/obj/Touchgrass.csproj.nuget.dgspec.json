@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\Touchgrass.csproj": {}
+    "C:\\Users\\Admin\\OneDrive\\Desktop\\pretest\\TouchGrass\\Touchgrass\\Touchgrass.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\Touchgrass.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Desktop\\pretest\\TouchGrass\\Touchgrass\\Touchgrass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Desktop\\pretest\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
         "projectName": "Touchgrass",
-        "projectPath": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
-        "packagesPath": "C:\\Users\\oumro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oumro\\OneDrive\\Documents\\Web_dev\\TouchGrass\\Touchgrass\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\pretest\\TouchGrass\\Touchgrass\\Touchgrass.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\pretest\\TouchGrass\\Touchgrass\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\oumro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

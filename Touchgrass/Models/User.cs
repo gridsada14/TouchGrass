@@ -7,6 +7,5 @@ namespace Touchgrass.Models
         public int Ids { get; set; }
         public string? Bio { get; set; }
         public string? Pic { get; set; }
-        public string? Status { get; set; }
     }
 }
