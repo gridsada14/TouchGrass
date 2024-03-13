@@ -42,14 +42,11 @@ public class CreateActivityController : Controller
         }
         string tagsString = notFormatFormData["Tag"].ToString() ?? "";
         List<string> tagsList = string.IsNullOrEmpty(tagsString) ? new List<string>() : new List<string>(tagsString.Split(','));
-        Console.WriteLine(tagsList);
         formData["Tag"] = tagsList;
 
         formData["Place"] = notFormatFormData["Place"];
 
         var filePaths = new List<string>();
-        Console.WriteLine(Img);
-        Console.WriteLine(Img.Count);
         if (Img != null && Img.Count > 0)
         {
             foreach (var uploadedFile in Img)
@@ -73,6 +70,7 @@ public class CreateActivityController : Controller
             }
             formData["Img"] = filePaths;
         }
+        else formData["Img"] = new List<string>();
         var host_name = HttpContext.Session.GetString("Name");
         var usersjson = System.IO.File.ReadAllText("./Database/User.json");
         var users = JsonConvert.DeserializeObject<List<User>>(usersjson);
@@ -86,10 +84,12 @@ public class CreateActivityController : Controller
         memList.Add(Host);
         formData["Host"] = Host;
         formData["Member"] = memList;
+
         DateTime expireDate = DateTime.Parse(notFormatFormData["Date"]).AddDays(7);
         formData["ExpireDate"] = expireDate.ToShortDateString();
         DateTime Date = DateTime.Parse(notFormatFormData["Date"]);
         formData["Date"] = Date.ToShortDateString();
+
         string json = System.IO.File.ReadAllText("Database/Activity.json");
         List<Dictionary<string, object>> fileContents = JsonConvert.DeserializeObject<List<Dictionary<string, object>>>(json);
         fileContents.Add(formData);
