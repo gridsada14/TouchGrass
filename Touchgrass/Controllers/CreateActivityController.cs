@@ -86,9 +86,9 @@ public class CreateActivityController : Controller
         formData["Member"] = memList;
 
         DateTime expireDate = DateTime.Parse(notFormatFormData["Date"]).AddDays(7);
-        formData["ExpireDate"] = expireDate.ToShortDateString();
+        formData["ExpireDate"] = expireDate.ToString("dd/MM/yyyy");
         DateTime Date = DateTime.Parse(notFormatFormData["Date"]);
-        formData["Date"] = Date.ToShortDateString();
+        formData["Date"] = Date.ToString("dd/MM/yyyy");
 
         string json = System.IO.File.ReadAllText("Database/Activity.json");
         List<Dictionary<string, object>> fileContents = JsonConvert.DeserializeObject<List<Dictionary<string, object>>>(json);
